@@ -1,0 +1,318 @@
+--- Prop Anarchy (temp fix by algernon) 0.7.5.1 Debug File ---
+Microsoft Windows NT 10.0.19044.0
+C# CLR Version 2.0.50727.1433
+Unity Version 5.6.7f1
+-------------------------------------
+Mods Installed are:
+=> 2040656402-Harmony 2.2-1 ** Enabled **
+=> 1393452031-Parkify r1.0.6 ** Enabled **
+=> 1412844620-Realistic Walking Speed ** Enabled **
+=> 1591417160-Hide It! ** Enabled **
+=> 1637663252-TM:PE 11.7.2.0 STABLE ** Enabled **
+=> 1664509314-Custom Animation Loader (CAL) ** Enabled **
+=> 1677913611-Smart Intersection Builder ** Enabled **
+=> 1721492498-Optimised Outside Connections ** Enabled **
+=> 1758376843-Network Skins ** Enabled **
+=> 1764637396-Toggle It! ** Enabled **
+=> 1777173984-Broken Node Detector 0.7.1 ** Enabled **
+=> 1824254667-Campus Parks r2.0.0 ** Enabled **
+=> 1934023593-RM Crossings 3.3  ** Enabled **
+=> 2016920607-RICO Revisited 2.5.2 ** Enabled **
+=> 2025147082-Realistic Population 2 2.2 ** Enabled **
+=> 2027161563-Lifecycle Rebalance Revisited 1.6.4  ** Enabled **
+=> 2048266761-Building Usage ** Enabled **
+=> 2069057130-No Big Truck 1.3.0.2 ** Enabled **
+=> 2094830335-Gravitative Cable Car 0.3.3 ** Enabled **
+=> 2096382380-Shared Stop Enabler ** Enabled **
+=> 2101551127-Repaint 1.7.1 ** Enabled **
+=> 2104976832-Direct Connect Roads V2.7 ** Enabled **
+=> 2133705267-Advanced Building Level Control 1.2.3 ** Enabled **
+=> 2133885971-Find It! 2.9.2 ** Enabled **
+=> 2140418403-Intersection Marking Tool 1.10.2.4 ** Enabled **
+=> 2197863850-BOB - the tree and prop replacer 0.9.7.2 ** Enabled **
+=> 2262054175-Express Bus Services ** Enabled **
+=> 2275749683-Trolleybus Trailer AI ** Enabled **
+=> 2367735356-Unlimited Outside Connections Revisited 1.1 ** Enabled **
+=> 2389414419-Zoning Adjuster 1.5.6 ** Enabled **
+=> 2405917899-RON - the network replacer 1.0 ** Enabled **
+=> 2414618415-Adaptive Networks 3.16 ** Enabled **
+=> 2448824112-Load Order Mod 1.14 ** Enabled **
+=> 2454302667-Check Road Access for Growables ** Enabled **
+=> 2455665392-EYM: Enlighten Your Mouse 1.1.3 ** Enabled **
+=> 2472062376-Node Controller Renewal 3.3.2.3 ** Enabled **
+=> 2475986859-CSL Commuter Destination ** Enabled **
+=> 2487213155-UI Resolution 1.2.0.2 ** Enabled **
+=> 2494660480-Fish Warehousing ** Enabled **
+=> 2502526929-Better Road Toolbar ** Enabled **
+=> 2511258910-Building Spawn Points 1.3.1 ** Enabled **
+=> 2527486462-Tree Anarchy 1.3.5 ** Enabled **
+=> 2554483179-Date Format ** Enabled **
+=> 2559042012-Better HealthCare Toolbar Mod ** Enabled **
+=> 2559105223-Senior Citizen Center Mod ** Enabled **
+=> 2560782729-Network Multitool 1.3.3.2 ** Enabled **
+=> 2594569657-Parking Lot Snapping ** Enabled **
+=> 2630529375-Express Bus Services (TLM plugin) ** Enabled **
+=> 2654364627-More CitizenUnits 1.1.1 ** Enabled **
+=> 2674842365-Curb Height Adjuster 1.5.3 ** Enabled **
+=> 2696146165-Extended Managers 1.0.3 ** Enabled **
+=> 2710657019-More PathUnits 1.0 ** Enabled **
+=> 2740907672-Reversible Tram AI 1.0 ** Enabled **
+=> 2773460744-Better Train Boarding ** Enabled **
+=> 2774427140-Public Transport Unstucker ** Enabled **
+=> 2778750497-ACME 0.6.2 ** Enabled **
+=> 2781804786-Game Anarchy 0.9 ** Enabled **
+=> 2805340879-Transfer Controller 0.7.8 ** Enabled **
+=> 2810536248-Better Education Toolbar Mod ** Enabled **
+=> 2854004833-Campus Industries Housing Mod ** Enabled **
+=> 2858591409-Loading Screen Mod Revisited 1.0 ** Enabled **
+=> 2862121823-81 tiles 2 0.9.4 ** Enabled **
+=> 2862881785-Network Anarchy 3.0.11 ** Enabled **
+=> 2862882210-Prop Anarchy (temp fix by algernon) 0.7.5.1 ** Enabled **
+=> 2862973068-Advanced Stop Selection Revisited 2.0.0.2 ** Enabled **
+=> 2862992091-Elevated Stops Enabler Revisited 2.0.0.2 ** Enabled **
+=> 2863765284-Area Cost Adjuster 1.0.0.1 ** Enabled **
+=> 466158459-Building Themes ** Enabled **
+=> 530771650-Prefab Hook ** Enabled **
+=> 1312767991-Transport Lines Manager 14.4 ** Enabled **
+=> 1562650024-Rebalanced Industries ** Enabled **
+=> 1718245521-No Park Building Fires ** Enabled **
+=> 1764208250-More Vehicles ** Enabled **
+=> 1859100867-Klyte's Framework 1.1 ** Enabled **
+=> 1886877404-Custom Effect Loader ** Enabled **
+=> 1899640536-Theme Mixer 2 ** Enabled **
+=> 2055972178-Custom Zone Mixer 1 ** Enabled **
+=> 409069482-Fill The Houses ** Enabled **
+=> 430741600-Half Maintenance Cost ** Enabled **
+=> 445589127-Precision Engineering ** Enabled **
+=> 515489008-Extra Train Station Tracks ** Enabled **
+=> 523824395-Clouds & Fog Toggler ** Enabled **
+=> 530871278-Daylight Classic ** Enabled **
+=> 608517757-Sub-Buildings Tabs ** Enabled **
+=> 611254368-Environment Changer ** Enabled **
+=> 707497031-Tram Station Track ** Enabled **
+=> 724382534-One-Way Train Tracks ** Enabled **
+=> 780720853-Vehicle Effects 1.9.3 ** Enabled **
+=> 795514116-Train Converter ** Enabled **
+=> 812713438-Dynamic Resolution ** Enabled **
+=> 815103125-Extra Vehicle Effects ** Enabled **
+=> 818641631-Ambient Sounds Tuner ** Enabled **
+=> 845665815-CSL Map View ** Enabled **
+=> 928103306-Ship Converter ** Enabled **
+=> 949504539-SingleTrainTrackAI ** Enabled **
+=> 954067599-PropRotating Params ** Enabled **
+=> 1094334744-Procedural Objects 1.7.8 ** Enabled **
+=> 1274199764-Network Tiling ** Enabled **
+=> 1522785644-Infinite Demand Mod ** Enabled **
+=> 1530376523-Railway Replacer ** Enabled **
+=> 1546357276-Industries Vehicle Converter ** Enabled **
+=> 1548831935-Advanced Vehicle Options 1.9.9 ** Enabled **
+=> 1577882296-Resize It! ** Enabled **
+=> 1619685021-Move It 2.9.8 ** Enabled **
+=> 1625704117-Roundabout Builder ** Enabled **
+=> 1627986403-Bulldoze It! ** Enabled **
+=> 1656549865-Rebuild It! ** Enabled **
+=> 1661072176-Empty It! ** Enabled **
+=> 1768810491-Measure It! ** Enabled **
+=> 1776052533-Stops and Stations ** Enabled **
+=> 1804882663-Monitor It! ** Enabled **
+=> 2030755273-Automatic Pedestrian Bridge2.2 ** Enabled **
+=> 2039036102-Metro Station Converter ** Enabled **
+=> 2041457644-Patch Loader Mod v2.1.2 ** Enabled **
+=> 2065380745-Metro Replacer ** Enabled **
+=> 2074258904-Demographics ** Enabled **
+=> 2105755179-FPS Booster 0.8.3 ** Enabled **
+=> 2152013104-Network detective1.1 ** Enabled **
+=> 2172488844-Picker 1.6.8 ** Enabled **
+=> 2255219025-Unified UI 2.2 ** Enabled **
+=> 2409471930-Population Demographics ** Enabled **
+=> 2415465635-Python Console ** Enabled **
+=> 2498554116-District Stats(2.0) ** Enabled **
+=> 2498879299-District RCI(2.0) ** Enabled **
+=> 2616880500-Image Overlay 2 1.6.7 ** Enabled **
+=> 2818311563-CallAgain v1.5.2 ** Enabled **
+=> 2858654134-Traffic Volume ** Enabled **
+=> 2862940316-Extra Landscaping Tools ** Enabled **
+=> 2863849354-Watch It! Revisited ** Enabled **
+=> 2864913941-Surface Painter temporary fix ** Enabled **
+=> 2869784351-Forest Brush Revisited v1.3.11 ** Enabled **
+=> HardMode-Hard Mode ** Disabled **
+=> UnlimitedMoney-Unlimited Money ** Disabled **
+=> UnlimitedOilAndOre-Unlimited Oil And Ore ** Disabled **
+=> UnlimitedSoil-Unlimited Soil ** Disabled **
+=> UnlockAll-Unlock All ** Disabled **
+=> 2865379681-Barges - P&P Temp Fix ** Enabled **
+=> 2881031511-Compatibility Report v2.0.5 ** Enabled **
+=> 2887458944-Write Everywhere 0.1 ** Enabled **
+-------------------------------------
+170:5610629-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - kmb_e400_display mesh marked as having the AdditiveShader
+170:5615212-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ctb_e400_7000_display mesh marked as having the AdditiveShader
+170:5617553-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_1r mesh marked as having the AdditiveShader
+170:5619153-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_1f mesh marked as having the AdditiveShader
+170:5620562-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_8r mesh marked as having the AdditiveShader
+170:5621800-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_8f mesh marked as having the AdditiveShader
+170:5623211-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_1r(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5624804-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_1f(Clone)(Clone)(Clone)(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5626072-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_8r mesh marked as having the AdditiveShader
+170:5627561-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - mtr_8f mesh marked as having the AdditiveShader
+170:5628983-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5630168-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5631352-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5632533-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5633724-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5634883-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5636050-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5637236-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5638238-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - blinerhdd mesh marked as having the AdditiveShader
+170:5639448-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - blined mesh marked as having the AdditiveShader
+170:5640471-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5641492-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5642492-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5643509-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5644521-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5645525-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5646599-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5647976-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5649487-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5650883-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5652301-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5653504-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5654747-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5655939-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5657172-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5658373-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5659481-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh7 mesh marked as having the AdditiveShader
+170:5660564-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5661834-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5662958-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5664039-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5665102-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh2 mesh marked as having the AdditiveShader
+170:5666156-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh6 mesh marked as having the AdditiveShader
+170:5667288-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh5 mesh marked as having the AdditiveShader
+170:5668329-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh4 mesh marked as having the AdditiveShader
+170:5669389-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh3 mesh marked as having the AdditiveShader
+170:5670454-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - submesh2 mesh marked as having the AdditiveShader
+170:5671783-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - MTR LRT Phase II LRV sub1(Clone) mesh marked as having the AdditiveShader
+170:5673062-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - MTR LRT Phase II LRV sub1(Clone) mesh marked as having the AdditiveShader
+170:5674134-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - MTR LRT Phase II LRV car2 sub1(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5675181-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - STSB3 mesh marked as having the AdditiveShader
+170:5676219-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - STSB2 mesh marked as having the AdditiveShader
+170:5677317-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - STSB1 mesh marked as having the AdditiveShader
+170:5678833-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ERGADuo_Car1_win mesh marked as having the AdditiveShader
+170:5680156-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - Headlight mesh marked as having the AdditiveShader
+170:5681481-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - add_Car1 mesh marked as having the AdditiveShader
+170:5682520-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ERGADuo_Car2_win mesh marked as having the AdditiveShader
+170:5683549-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - Brake_Car2 mesh marked as having the AdditiveShader
+170:5684564-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - add_Car2 mesh marked as having the AdditiveShader
+170:5686076-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - Light Box 3 On red(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5687414-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - Light Box 2 On(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5688573-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - Light Box 1 On(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5689766-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1f mesh marked as having the AdditiveShader
+170:5690948-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5692139-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4f mesh marked as having the AdditiveShader
+170:5693309-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5694454-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1f mesh marked as having the AdditiveShader
+170:5695613-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5696953-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4f mesh marked as having the AdditiveShader
+170:5698168-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5699259-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5700577-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5701746-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1r mesh marked as having the AdditiveShader
+170:5702895-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1f mesh marked as having the AdditiveShader
+170:5704044-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5705173-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4r mesh marked as having the AdditiveShader
+170:5706428-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4f mesh marked as having the AdditiveShader
+170:5707774-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5708936-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1r mesh marked as having the AdditiveShader
+170:5710095-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-1f mesh marked as having the AdditiveShader
+170:5711252-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5712402-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4r mesh marked as having the AdditiveShader
+170:5713543-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-4f mesh marked as having the AdditiveShader
+170:5714693-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass mesh marked as having the AdditiveShader
+170:5715773-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass(Clone)(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5717187-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - t11-sub-glass(Clone)(Clone)(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5719110-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone) mesh marked as having the AdditiveShader
+170:5720686-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone) mesh marked as having the AdditiveShader
+170:5722051-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5723401-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5724996-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5726237-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone) mesh marked as having the AdditiveShader
+170:5727573-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone) mesh marked as having the AdditiveShader
+170:5729053-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5730269-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5731487-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone) mesh marked as having the AdditiveShader
+170:5732697-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone) mesh marked as having the AdditiveShader
+170:5733888-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratplight(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5735260-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - ratpglass(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5736597-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - lights mesh marked as having the AdditiveShader
+170:5737781-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - lights mesh marked as having the AdditiveShader
+170:5738960-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - lights mesh marked as having the AdditiveShader
+170:5740375-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - selega-short-generic_add(Clone) mesh marked as having the AdditiveShader
+170:5741713-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a vehicle sub - selega-jr-add(Clone)(Clone) mesh marked as having the AdditiveShader
+170:5749932-TransparentLodFix ==> Transparency fixed for: 939152470.Large City Hall Police_Data
+170:5752611-TransparentLodFix ==> Transparency fixed for: 906866487.City Hall Police_Data
+170:5753906-TransparentLodFix ==> Transparency fixed for: 901093365.Town Hall Police Department_Data
+170:5773689-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - windows marked as having the AdditiveShader
+170:5775306-TransparentLodFix ==> Transparency fixed for: 2256909873.US BANK - vitres SUB_Data
+170:5779703-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - groundScreen marked as having the AdditiveShader
+170:5781153-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - elevatedScreen marked as having the AdditiveShader
+170:5782536-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - parking_garage_submesh marked as having the AdditiveShader
+170:5783798-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - parking_garage_large_submesh marked as having the AdditiveShader
+170:5785028-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - parking_garage_large_submesh(Clone) marked as having the AdditiveShader
+170:5788186-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - HDB 652445 SubM Lights(Clone) marked as having the AdditiveShader
+170:5790304-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - HDB 651445_submesh4(Clone) marked as having the AdditiveShader
+170:5792115-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building sub - HDB 651446_submesh4(Clone) marked as having the AdditiveShader
+170:5794584-TransparentLodFix ==> Transparency fixed for: 1578794059.sub_gymnasium_Data
+170:5803310-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building - 1463905961.HDB_640836_Sub_Data marked as having the AdditiveShader
+170:5804859-TransparentLodFix ==> Transparency fixed for: 1435935415.NTE - Algae Glass - 38_Data
+170:5805957-TransparentLodFix ==> Transparency fixed for: 1434725788.NTE - Algae Glass - 38_Data
+170:5807051-TransparentLodFix ==> Transparency fixed for: 1434725126.NTE - Algae Glass - 38_Data
+170:5808823-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a building - 1386369754.640834_lights_Data marked as having the AdditiveShader
+170:5825946-TransparentLodFix ==> Transparency fixed for: 938394341.Glass Sound Barrier v7 x1_Data
+170:5827503-TransparentLodFix ==> Transparency fixed for: 938394341.Glass Sound Barrier v4 x8_Data
+170:5828552-TransparentLodFix ==> Transparency fixed for: 938394341.Glass Sound Barrier v7 x8_Data
+170:5829719-TransparentLodFix ==> Transparency fixed for: 938394341.Glass Sound Barrier v4 x1_Data
+170:5830788-TransparentLodFix ==> Transparency fixed for: 926852476.Bus STOP roof glass prop1_Data
+170:5831922-TransparentLodFix ==> Transparency fixed for: 898874254.Glass fence 4m_Data
+170:5832896-TransparentLodFix ==> Transparency fixed for: 898874254.Glass fence 8m_Data
+170:5838429-TransparentLodFix ==> Transparency fixed for: 2518959391.R69Railway Tunnel Darkener_Data
+170:5839738-TransparentLodFix ==> Transparency fixed for: 2487537755.R69Railway Tunnel Darkener_Data
+170:5840923-TransparentLodFix ==> Transparency fixed for: 2487537755.R0-HYP Railway Tunnel Darkener_Data
+170:5841961-TransparentLodFix ==> Transparency fixed for: 2487537755.R0-G Railway Tunnel Darkener_Data
+170:5843102-TransparentLodFix ==> Transparency fixed for: 2452461101.nb_glass_Data
+170:5844717-TransparentLodFix ==> Transparency fixed for: 2239545435.Ceiling Light Dimmer #01_Data
+170:5845880-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType1 32m_Data
+170:5846862-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType1 8m_Data
+170:5847801-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType2 8m_Data
+170:5848739-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType2 End_Data
+170:5850156-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType1 End_Data
+170:5851151-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType1 16m_Data
+170:5852100-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType2 16m_Data
+170:5853045-TransparentLodFix ==> Transparency fixed for: 2164763010.GlassRoofType2 32m_Data
+170:5854052-TransparentLodFix ==> Transparency fixed for: 2162334854.R69 Rice Field Water_Data
+170:5855285-TransparentLodFix ==> Transparency fixed for: 2124175498.Anim Escalator Glass Prop_Data
+170:5856664-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 R16m_Data
+170:5857631-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 16m_Data
+170:5858593-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 32m_Data
+170:5859540-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 R8m_Data
+170:5860499-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 Triangle Right_Data
+170:5861448-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 8m_Data
+170:5862403-TransparentLodFix ==> Transparency fixed for: 2087940119.Water Surface1 Triangle Left_Data
+170:5863525-TransparentLodFix ==> Transparency fixed for: 2038714580.r0bvu-tunnel-darkener_Data
+170:5865180-TransparentLodFix ==> Transparency fixed for: 1973395646.DB Smoking Area Marking_Data
+170:5866417-TransparentLodFix ==> Transparency fixed for: 1919887701.Bus Shelter 01 - Glass_Data
+170:5867962-TransparentLodFix ==> Transparency fixed for: 1919887701.Tram Shelter #03 - Glass_Data
+170:5868930-TransparentLodFix ==> Transparency fixed for: 1919887701.Tram Shelter #04 - Glass_Data
+170:5869872-TransparentLodFix ==> Transparency fixed for: 1919887701.Tram Shelter #01 - Glass _Data
+170:5874963-TransparentLodFix ==> Transparency fixed for: 1530239308.R69Railway Tunnel Darkener_Data
+170:5877322-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a prop - 1525836238.lightprop_Data marked as having the AdditiveShader
+170:5878494-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a prop - 1525836238.SHKProp_Data marked as having the AdditiveShader
+170:5880006-UpdateCustomPrefabs ==> [AdditiveShader] : Loaded a prop - 1474301059.Prop_HDB 640841_Data marked as having the AdditiveShader
+170:5884381-TransparentLodFix ==> Transparency fixed for: 1363355065.Awning3 Glass_Data
+170:5885378-TransparentLodFix ==> Transparency fixed for: 1363355065.Awning2a Glass_Data
+170:5886337-TransparentLodFix ==> Transparency fixed for: 1363355065.Awning1 Glass_Data
+170:5887316-TransparentLodFix ==> Transparency fixed for: 1363355065.Awning2 Glass_Data
+170:5889999-TransparentLodFix ==> Transparency fixed for: 1223954908.stop shelter 2_Data
+170:5890988-TransparentLodFix ==> Transparency fixed for: 1223954908.stop shelter 1_Data
+170:5891977-TransparentLodFix ==> Transparency fixed for: 1221979538.intlbustop_glass_prop_Data
+170:5976006-TransparentLodFix ==> Transparency fixed for: Large Pedestrian Area Plaza SubBuilding 3
+170:5990365-TransparentLodFix ==> Transparency fixed for: Small Pedestrian Area Plaza SubBuilding 3

@@ -1,0 +1,417 @@
+--- Tree Anarchy 1.3.5 Debug File ---
+Microsoft Windows NT 10.0.19044.0
+C# CLR Version 2.0.50727.1433
+Unity Version 5.6.7f1
+-------------------------------------
+1:7427857-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7430215-TreeToolRenderGeometryTranspiler ==> ldfld TreeInfo TreeTool::m_treeInfo
+1:7431423-TreeToolRenderGeometryTranspiler ==> stloc.0 NULL
+1:7432872-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7434461-TreeToolRenderGeometryTranspiler ==> ldfld Mode TreeTool::m_mode
+1:7435580-TreeToolRenderGeometryTranspiler ==> ldc.i4.1 NULL
+1:7436861-TreeToolRenderGeometryTranspiler ==> bne.un Label0
+1:7438056-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7439116-TreeToolRenderGeometryTranspiler ==> ldnull NULL
+1:7442029-TreeToolRenderGeometryTranspiler ==> call static System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object x, UnityEngine.Object y)
+1:7443215-TreeToolRenderGeometryTranspiler ==> brfalse Label1
+1:7444193-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7445384-TreeToolRenderGeometryTranspiler ==> ldfld ToolErrors TreeTool::m_placementErrors
+1:7446464-TreeToolRenderGeometryTranspiler ==> ldc.i4.0 NULL
+1:7447413-TreeToolRenderGeometryTranspiler ==> conv.i8 NULL
+1:7448476-TreeToolRenderGeometryTranspiler ==> bne.un Label2
+1:7449416-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7450363-TreeToolRenderGeometryTranspiler ==> ldfld ToolController ToolBase::m_toolController
+1:7451425-TreeToolRenderGeometryTranspiler ==> callvirt System.Boolean ToolController::get_IsInsideUI()
+1:7452423-TreeToolRenderGeometryTranspiler ==> brtrue Label3
+1:7453453-TreeToolRenderGeometryTranspiler ==> call static System.Boolean UnityEngine.Cursor::get_visible()
+1:7454602-TreeToolRenderGeometryTranspiler ==> brfalse Label4
+1:7455778-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7456761-TreeToolRenderGeometryTranspiler ==> ldfld System.Boolean TreeTool::m_upgrading
+1:7457735-TreeToolRenderGeometryTranspiler ==> brtrue Label5
+1:7458681-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7459641-TreeToolRenderGeometryTranspiler ==> ldfld System.UInt16 TreeTool::m_upgradeSegment
+1:7460608-TreeToolRenderGeometryTranspiler ==> brtrue Label6
+1:7461573-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7462537-TreeToolRenderGeometryTranspiler ==> ldfld ColossalFramework.Math.Randomizer TreeTool::m_randomizer
+1:7463476-TreeToolRenderGeometryTranspiler ==> stloc.1 NULL
+1:7464654-TreeToolRenderGeometryTranspiler ==> call static TreeManager ColossalFramework.Singleton`1<TreeManager>::get_instance()
+1:7465702-TreeToolRenderGeometryTranspiler ==> ldfld Array32`1<TreeInstance> TreeManager::m_trees
+1:7466692-TreeToolRenderGeometryTranspiler ==> ldloca.s 1 (ColossalFramework.Math.Randomizer)
+1:7467779-TreeToolRenderGeometryTranspiler ==> callvirt System.UInt32 Array32`1<TreeInstance>::NextFreeItem(ColossalFramework.Math.Randomizer& r)
+1:7468773-TreeToolRenderGeometryTranspiler ==> stloc.2 NULL
+1:7469759-TreeToolRenderGeometryTranspiler ==> ldloca.s 3 (ColossalFramework.Math.Randomizer)
+1:7470715-TreeToolRenderGeometryTranspiler ==> ldloc.2 NULL
+1:7471792-TreeToolRenderGeometryTranspiler ==> call System.Void ColossalFramework.Math.Randomizer::.ctor(System.UInt32 _seed)
+1:7472788-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7473754-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_minScale
+1:7474809-TreeToolRenderGeometryTranspiler ==> ldloca.s 3 (ColossalFramework.Math.Randomizer)
+1:7475802-TreeToolRenderGeometryTranspiler ==> ldc.i4 10000
+1:7476864-TreeToolRenderGeometryTranspiler ==> call System.Int32 ColossalFramework.Math.Randomizer::Int32(System.UInt32 range)
+1:7477855-TreeToolRenderGeometryTranspiler ==> conv.r4 NULL
+1:7478784-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7479719-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_maxScale
+1:7480645-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7481599-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_minScale
+1:7482546-TreeToolRenderGeometryTranspiler ==> sub NULL
+1:7483730-TreeToolRenderGeometryTranspiler ==> mul NULL
+1:7486173-TreeToolRenderGeometryTranspiler ==> ldc.r4 0.0001
+1:7487339-TreeToolRenderGeometryTranspiler ==> mul NULL
+1:7488317-TreeToolRenderGeometryTranspiler ==> add NULL
+1:7489292-TreeToolRenderGeometryTranspiler ==> stloc.s 4 (System.Single)
+1:7490274-TreeToolRenderGeometryTranspiler ==> ldloc.s 4
+1:7491234-TreeToolRenderGeometryTranspiler ==> ldloc.2 NULL
+1:7492406-TreeToolRenderGeometryTranspiler ==> call static System.Single TreeAnarchy.TAManager::GetSeedTreeScale(System.Single scale, System.UInt32 treeID)
+1:7493428-TreeToolRenderGeometryTranspiler ==> stloc.s 4 (System.Single)
+1:7494483-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7495481-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_minBrightness
+1:7496432-TreeToolRenderGeometryTranspiler ==> ldloca.s 3 (ColossalFramework.Math.Randomizer)
+1:7497375-TreeToolRenderGeometryTranspiler ==> ldc.i4 10000
+1:7498417-TreeToolRenderGeometryTranspiler ==> call System.Int32 ColossalFramework.Math.Randomizer::Int32(System.UInt32 range)
+1:7499386-TreeToolRenderGeometryTranspiler ==> conv.r4 NULL
+1:7500321-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7501282-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_maxBrightness
+1:7502211-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7503150-TreeToolRenderGeometryTranspiler ==> ldfld System.Single TreeInfo::m_minBrightness
+1:7504078-TreeToolRenderGeometryTranspiler ==> sub NULL
+1:7505111-TreeToolRenderGeometryTranspiler ==> mul NULL
+1:7506060-TreeToolRenderGeometryTranspiler ==> ldc.r4 0.0001
+1:7506986-TreeToolRenderGeometryTranspiler ==> mul NULL
+1:7507907-TreeToolRenderGeometryTranspiler ==> add NULL
+1:7508850-TreeToolRenderGeometryTranspiler ==> stloc.s 5 (System.Single)
+1:7509798-TreeToolRenderGeometryTranspiler ==> ldnull NULL
+1:7510738-TreeToolRenderGeometryTranspiler ==> ldloc.0 NULL
+1:7511671-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL
+1:7512630-TreeToolRenderGeometryTranspiler ==> ldfld UnityEngine.Vector3 TreeTool::m_cachedPosition
+1:7513581-TreeToolRenderGeometryTranspiler ==> ldloc.s 4 (System.Single)
+1:7514586-TreeToolRenderGeometryTranspiler ==> ldloc.s 5 (System.Single)
+1:7515545-TreeToolRenderGeometryTranspiler ==> ldsfld UnityEngine.Vector4 RenderManager::DefaultColorLocation
+1:7516642-TreeToolRenderGeometryTranspiler ==> call static System.Void TreeInstance::RenderInstance(CameraInfo cameraInfo, TreeInfo info, UnityEngine.Vector3 position, System.Single scale, System.Single brightness, UnityEngine.Vector4 objectIndex)
+1:7517672-TreeToolRenderGeometryTranspiler ==> ldarg.0 NULL [Label0, Label1, Label2, Label3, Label4, Label5, Label6]
+1:7518642-TreeToolRenderGeometryTranspiler ==> ldarg.1 NULL
+1:7519740-TreeToolRenderGeometryTranspiler ==> call virtual System.Void ToolBase::RenderGeometry(CameraInfo cameraInfo)
+1:7520717-TreeToolRenderGeometryTranspiler ==> ret NULL
+1:7539882-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7541182-TreeToolRenderOverlayTranspiler ==> ldfld TreeInfo TreeTool::m_treeInfo
+1:7542213-TreeToolRenderOverlayTranspiler ==> stloc.0 NULL
+1:7543209-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7544199-TreeToolRenderOverlayTranspiler ==> ldfld Mode TreeTool::m_mode
+1:7545294-TreeToolRenderOverlayTranspiler ==> ldc.i4.1 NULL
+1:7546257-TreeToolRenderOverlayTranspiler ==> bne.un Label0
+1:7547206-TreeToolRenderOverlayTranspiler ==> ldloc.0 NULL
+1:7548156-TreeToolRenderOverlayTranspiler ==> ldnull NULL
+1:7549225-TreeToolRenderOverlayTranspiler ==> call static System.Boolean UnityEngine.Object::op_Inequality(UnityEngine.Object x, UnityEngine.Object y)
+1:7550226-TreeToolRenderOverlayTranspiler ==> brfalse Label1
+1:7551167-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7552131-TreeToolRenderOverlayTranspiler ==> ldfld ToolController ToolBase::m_toolController
+1:7553184-TreeToolRenderOverlayTranspiler ==> callvirt System.Boolean ToolController::get_IsInsideUI()
+1:7554164-TreeToolRenderOverlayTranspiler ==> brtrue Label2
+1:7555610-TreeToolRenderOverlayTranspiler ==> call static System.Boolean UnityEngine.Cursor::get_visible()
+1:7556633-TreeToolRenderOverlayTranspiler ==> brfalse Label3
+1:7557682-TreeToolRenderOverlayTranspiler ==> call static NetManager ColossalFramework.Singleton`1<NetManager>::get_instance()
+1:7558655-TreeToolRenderOverlayTranspiler ==> stloc.1 NULL
+1:7559583-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7560580-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7561663-TreeToolRenderOverlayTranspiler ==> callvirt System.Void FastList`1<System.UInt16>::Clear()
+1:7562650-TreeToolRenderOverlayTranspiler ==> br Label4
+1:7563602-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label4, Label5]
+1:7564628-TreeToolRenderOverlayTranspiler ==> ldfld System.Collections.Generic.HashSet`1<System.UInt16> TreeTool::m_upgradedSegments
+1:7565611-TreeToolRenderOverlayTranspiler ==> ldsfld System.Int32 SimulationManager::SYNCHRONIZE_TIMEOUT
+1:7566679-TreeToolRenderOverlayTranspiler ==> call static System.Boolean System.Threading.Monitor::TryEnter(System.Object obj, System.Int32 millisecondsTimeout)
+1:7567665-TreeToolRenderOverlayTranspiler ==> brfalse Label5
+1:7569731-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [EX_BeginException]
+1:7570809-TreeToolRenderOverlayTranspiler ==> ldfld System.Collections.Generic.HashSet`1<System.UInt16> TreeTool::m_upgradedSegments
+1:7571900-TreeToolRenderOverlayTranspiler ==> callvirt System.Collections.Generic.Enumerator<System.UInt16> System.Collections.Generic.HashSet`1<System.UInt16>::GetEnumerator()
+1:7572889-TreeToolRenderOverlayTranspiler ==> stloc.3 NULL
+1:7573880-TreeToolRenderOverlayTranspiler ==> br Label6 [EX_BeginException]
+1:7574971-TreeToolRenderOverlayTranspiler ==> ldloca.s 3 (System.Collections.Generic.HashSet`1+Enumerator[System.UInt16]) [Label7]
+1:7576037-TreeToolRenderOverlayTranspiler ==> call virtual System.UInt16 System.Collections.Generic.Enumerator<System.UInt16>::get_Current()
+1:7577030-TreeToolRenderOverlayTranspiler ==> stloc.2 NULL
+1:7577964-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7578929-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7579862-TreeToolRenderOverlayTranspiler ==> ldloc.2 NULL
+1:7580924-TreeToolRenderOverlayTranspiler ==> callvirt System.Void FastList`1<System.UInt16>::Add(System.UInt16 item)
+1:7581991-TreeToolRenderOverlayTranspiler ==> ldloca.s 3 (System.Collections.Generic.HashSet`1+Enumerator[System.UInt16]) [Label6]
+1:7583061-TreeToolRenderOverlayTranspiler ==> call virtual System.Boolean System.Collections.Generic.Enumerator<System.UInt16>::MoveNext()
+1:7584054-TreeToolRenderOverlayTranspiler ==> brtrue Label7
+1:7585102-TreeToolRenderOverlayTranspiler ==> leave Label8
+1:7586088-TreeToolRenderOverlayTranspiler ==> ldloca.s 3 (System.Collections.Generic.HashSet`1+Enumerator[System.UInt16]) [EX_BeginFinally]
+1:7587067-TreeToolRenderOverlayTranspiler ==> constrained. System.Collections.Generic.HashSet`1+Enumerator[System.UInt16]
+1:7588124-TreeToolRenderOverlayTranspiler ==> callvirt abstract virtual System.Void System.IDisposable::Dispose()
+1:7589129-TreeToolRenderOverlayTranspiler ==> endfinally NULL [EX_EndException]
+1:7590103-TreeToolRenderOverlayTranspiler ==> leave Label9 [Label8]
+1:7591082-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [EX_BeginFinally]
+1:7592075-TreeToolRenderOverlayTranspiler ==> ldfld System.Collections.Generic.HashSet`1<System.UInt16> TreeTool::m_upgradedSegments
+1:7593139-TreeToolRenderOverlayTranspiler ==> call static System.Void System.Threading.Monitor::Exit(System.Object obj)
+1:7594144-TreeToolRenderOverlayTranspiler ==> endfinally NULL [EX_EndException]
+1:7595198-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label9]
+1:7596153-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7597126-TreeToolRenderOverlayTranspiler ==> ldfld System.Int32 FastList`1<System.UInt16>::m_size
+1:7598070-TreeToolRenderOverlayTranspiler ==> brtrue Label10
+1:7599152-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7600147-TreeToolRenderOverlayTranspiler ==> ldfld System.UInt16 TreeTool::m_upgradeSegment
+1:7601119-TreeToolRenderOverlayTranspiler ==> brtrue Label11
+1:7602069-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7603001-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7603924-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7605373-TreeToolRenderOverlayTranspiler ==> ldfld ToolErrors TreeTool::m_placementErrors
+1:7606332-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7607275-TreeToolRenderOverlayTranspiler ==> conv.i8 NULL
+1:7608210-TreeToolRenderOverlayTranspiler ==> ceq NULL
+1:7609146-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7610084-TreeToolRenderOverlayTranspiler ==> ceq NULL
+1:7611153-TreeToolRenderOverlayTranspiler ==> call UnityEngine.Color ToolBase::GetToolColor(System.Boolean warning, System.Boolean error)
+1:7612165-TreeToolRenderOverlayTranspiler ==> stloc.s 4 (UnityEngine.Color)
+1:7613100-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7614040-TreeToolRenderOverlayTranspiler ==> ldfld ToolController ToolBase::m_toolController
+1:7615103-TreeToolRenderOverlayTranspiler ==> ldarg.1 NULL
+1:7616059-TreeToolRenderOverlayTranspiler ==> ldloc.s 4 (UnityEngine.Color)
+1:7617018-TreeToolRenderOverlayTranspiler ==> ldloc.s 4 (UnityEngine.Color)
+1:7617981-TreeToolRenderOverlayTranspiler ==> ldloc.s 4 (UnityEngine.Color)
+1:7618925-TreeToolRenderOverlayTranspiler ==> ldloc.s 4 (UnityEngine.Color)
+1:7619854-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7620771-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7621912-TreeToolRenderOverlayTranspiler ==> callvirt System.Void ToolController::RenderColliding(CameraInfo cameraInfo, UnityEngine.Color importantSegmentColor, UnityEngine.Color nonImportantSegmentColor, UnityEngine.Color importantBuildingColor, UnityEngine.Color nonImportantBuildingColor, System.UInt16 ignoreSegment, System.UInt16 ignoreBuilding)
+1:7622901-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7623865-TreeToolRenderOverlayTranspiler ==> ldfld ColossalFramework.Math.Randomizer TreeTool::m_randomizer
+1:7624929-TreeToolRenderOverlayTranspiler ==> stloc.s 5 (ColossalFramework.Math.Randomizer)
+1:7625985-TreeToolRenderOverlayTranspiler ==> call static TreeManager ColossalFramework.Singleton`1<TreeManager>::get_instance()
+1:7626993-TreeToolRenderOverlayTranspiler ==> ldfld Array32`1<TreeInstance> TreeManager::m_trees
+1:7627974-TreeToolRenderOverlayTranspiler ==> ldloca.s 5 (ColossalFramework.Math.Randomizer)
+1:7629033-TreeToolRenderOverlayTranspiler ==> callvirt System.UInt32 Array32`1<TreeInstance>::NextFreeItem(ColossalFramework.Math.Randomizer& r)
+1:7630033-TreeToolRenderOverlayTranspiler ==> stloc.s 6 (System.UInt32)
+1:7631018-TreeToolRenderOverlayTranspiler ==> ldloca.s 7 (ColossalFramework.Math.Randomizer)
+1:7631977-TreeToolRenderOverlayTranspiler ==> ldloc.s 6 (System.UInt32)
+1:7633008-TreeToolRenderOverlayTranspiler ==> call System.Void ColossalFramework.Math.Randomizer::.ctor(System.UInt32 _seed)
+1:7633982-TreeToolRenderOverlayTranspiler ==> ldloc.0 NULL
+1:7635066-TreeToolRenderOverlayTranspiler ==> ldfld System.Single TreeInfo::m_minScale
+1:7636048-TreeToolRenderOverlayTranspiler ==> ldloca.s 7 (ColossalFramework.Math.Randomizer)
+1:7636992-TreeToolRenderOverlayTranspiler ==> ldc.i4 10000
+1:7638025-TreeToolRenderOverlayTranspiler ==> call System.Int32 ColossalFramework.Math.Randomizer::Int32(System.UInt32 range)
+1:7638999-TreeToolRenderOverlayTranspiler ==> conv.r4 NULL
+1:7639925-TreeToolRenderOverlayTranspiler ==> ldloc.0 NULL
+1:7640867-TreeToolRenderOverlayTranspiler ==> ldfld System.Single TreeInfo::m_maxScale
+1:7641804-TreeToolRenderOverlayTranspiler ==> ldloc.0 NULL
+1:7642737-TreeToolRenderOverlayTranspiler ==> ldfld System.Single TreeInfo::m_minScale
+1:7643681-TreeToolRenderOverlayTranspiler ==> sub NULL
+1:7644719-TreeToolRenderOverlayTranspiler ==> mul NULL
+1:7645658-TreeToolRenderOverlayTranspiler ==> ldc.r4 0.0001
+1:7646597-TreeToolRenderOverlayTranspiler ==> mul NULL
+1:7647696-TreeToolRenderOverlayTranspiler ==> add NULL
+1:7648863-TreeToolRenderOverlayTranspiler ==> stloc.s 8 (System.Single)
+1:7649822-TreeToolRenderOverlayTranspiler ==> ldloc.s 8
+1:7650791-TreeToolRenderOverlayTranspiler ==> ldloc.s 6
+1:7651917-TreeToolRenderOverlayTranspiler ==> call static System.Single TreeAnarchy.TAManager::GetSeedTreeScale(System.Single scale, System.UInt32 treeID)
+1:7652909-TreeToolRenderOverlayTranspiler ==> stloc.s 8 (System.Single)
+1:7653847-TreeToolRenderOverlayTranspiler ==> ldarg.1 NULL
+1:7654867-TreeToolRenderOverlayTranspiler ==> ldloc.0 NULL
+1:7655795-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7656734-TreeToolRenderOverlayTranspiler ==> ldfld UnityEngine.Vector3 TreeTool::m_cachedPosition
+1:7657693-TreeToolRenderOverlayTranspiler ==> ldloc.s 8 (System.Single)
+1:7658662-TreeToolRenderOverlayTranspiler ==> ldloc.s 4 (UnityEngine.Color)
+1:7659764-TreeToolRenderOverlayTranspiler ==> call static System.Void TreeTool::RenderOverlay(CameraInfo cameraInfo, TreeInfo info, UnityEngine.Vector3 position, System.Single scale, UnityEngine.Color color)
+1:7660746-TreeToolRenderOverlayTranspiler ==> br Label12
+1:7661696-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label10, Label11]
+1:7662660-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7663626-TreeToolRenderOverlayTranspiler ==> ldfld System.Int32 FastList`1<System.UInt16>::m_size
+1:7664668-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7665605-TreeToolRenderOverlayTranspiler ==> ble Label13
+1:7666687-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7667617-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7668544-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7669603-TreeToolRenderOverlayTranspiler ==> call UnityEngine.Color ToolBase::GetToolColor(System.Boolean warning, System.Boolean error)
+1:7670595-TreeToolRenderOverlayTranspiler ==> stloc.s 9 (UnityEngine.Color)
+1:7671534-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7672470-TreeToolRenderOverlayTranspiler ==> stloc.s 10 (System.Int32)
+1:7673407-TreeToolRenderOverlayTranspiler ==> br Label14
+1:7674533-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label15]
+1:7675522-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7676500-TreeToolRenderOverlayTranspiler ==> ldfld System.UInt16[] FastList`1<System.UInt16>::m_buffer
+1:7677455-TreeToolRenderOverlayTranspiler ==> ldloc.s 10 (System.Int32)
+1:7678376-TreeToolRenderOverlayTranspiler ==> ldelem.u2 NULL
+1:7679315-TreeToolRenderOverlayTranspiler ==> stloc.s 11 (System.UInt16)
+1:7680273-TreeToolRenderOverlayTranspiler ==> ldarg.1 NULL
+1:7681210-TreeToolRenderOverlayTranspiler ==> ldloc.1 NULL
+1:7682162-TreeToolRenderOverlayTranspiler ==> ldfld Array16`1<NetSegment> NetManager::m_segments
+1:7683150-TreeToolRenderOverlayTranspiler ==> ldfld NetSegment[] Array16`1<NetSegment>::m_buffer
+1:7684111-TreeToolRenderOverlayTranspiler ==> ldloc.s 11 (System.UInt16)
+1:7685196-TreeToolRenderOverlayTranspiler ==> ldelema NetSegment
+1:7686143-TreeToolRenderOverlayTranspiler ==> ldloc.s 9 (UnityEngine.Color)
+1:7687092-TreeToolRenderOverlayTranspiler ==> ldloc.s 9 (UnityEngine.Color)
+1:7688210-TreeToolRenderOverlayTranspiler ==> call static System.Void NetTool::RenderOverlay(CameraInfo cameraInfo, NetSegment& segment, UnityEngine.Color importantColor, UnityEngine.Color nonImportantColor)
+1:7689236-TreeToolRenderOverlayTranspiler ==> ldloc.s 10 (System.Int32)
+1:7690179-TreeToolRenderOverlayTranspiler ==> ldc.i4.1 NULL
+1:7691091-TreeToolRenderOverlayTranspiler ==> add NULL
+1:7692251-TreeToolRenderOverlayTranspiler ==> stloc.s 10 (System.Int32)
+1:7693259-TreeToolRenderOverlayTranspiler ==> ldloc.s 10 (System.Int32) [Label14]
+1:7694208-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7695326-TreeToolRenderOverlayTranspiler ==> ldfld FastList`1<System.UInt16> TreeTool::m_tempUpgraded
+1:7696314-TreeToolRenderOverlayTranspiler ==> ldfld System.Int32 FastList`1<System.UInt16>::m_size
+1:7697910-TreeToolRenderOverlayTranspiler ==> blt Label15
+1:7698930-TreeToolRenderOverlayTranspiler ==> br Label16
+1:7699876-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label13]
+1:7700812-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7701744-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7702680-TreeToolRenderOverlayTranspiler ==> ldfld ToolErrors TreeTool::m_placementErrors
+1:7703599-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7704598-TreeToolRenderOverlayTranspiler ==> conv.i8 NULL
+1:7705555-TreeToolRenderOverlayTranspiler ==> ceq NULL
+1:7706482-TreeToolRenderOverlayTranspiler ==> ldc.i4.0 NULL
+1:7707430-TreeToolRenderOverlayTranspiler ==> ceq NULL
+1:7708486-TreeToolRenderOverlayTranspiler ==> call UnityEngine.Color ToolBase::GetToolColor(System.Boolean warning, System.Boolean error)
+1:7709488-TreeToolRenderOverlayTranspiler ==> stloc.s 12 (UnityEngine.Color)
+1:7710429-TreeToolRenderOverlayTranspiler ==> ldarg.1 NULL
+1:7711471-TreeToolRenderOverlayTranspiler ==> call static NetManager ColossalFramework.Singleton`1<NetManager>::get_instance()
+1:7712488-TreeToolRenderOverlayTranspiler ==> ldfld Array16`1<NetSegment> NetManager::m_segments
+1:7713448-TreeToolRenderOverlayTranspiler ==> ldfld NetSegment[] Array16`1<NetSegment>::m_buffer
+1:7714463-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL
+1:7715602-TreeToolRenderOverlayTranspiler ==> ldfld System.UInt16 TreeTool::m_upgradeSegment
+1:7716680-TreeToolRenderOverlayTranspiler ==> ldelema NetSegment
+1:7717767-TreeToolRenderOverlayTranspiler ==> ldloc.s 12 (UnityEngine.Color)
+1:7718854-TreeToolRenderOverlayTranspiler ==> ldloc.s 12 (UnityEngine.Color)
+1:7720056-TreeToolRenderOverlayTranspiler ==> call static System.Void NetTool::RenderOverlay(CameraInfo cameraInfo, NetSegment& segment, UnityEngine.Color importantColor, UnityEngine.Color nonImportantColor)
+1:7721120-TreeToolRenderOverlayTranspiler ==> ldarg.0 NULL [Label0, Label1, Label2, Label3, Label12, Label16]
+1:7722090-TreeToolRenderOverlayTranspiler ==> ldarg.1 NULL
+1:7723156-TreeToolRenderOverlayTranspiler ==> call virtual System.Void ToolBase::RenderOverlay(CameraInfo cameraInfo)
+1:7724145-TreeToolRenderOverlayTranspiler ==> ret NULL
+5:5194343-CustomAwakeRoutine ==> Max tree limit set at: 1048576
+41:8333987-EnsureCapacity ==> Setting Tree LOD to Low
+Mods Installed are:
+=> 2040656402-Harmony 2.2-1 ** Enabled **
+=> 1393452031-Parkify r1.0.6 ** Enabled **
+=> 1412844620-Realistic Walking Speed ** Enabled **
+=> 1591417160-Hide It! ** Enabled **
+=> 1637663252-TM:PE 11.7.2.0 STABLE ** Enabled **
+=> 1664509314-Custom Animation Loader (CAL) ** Enabled **
+=> 1677913611-Smart Intersection Builder ** Enabled **
+=> 1721492498-Optimised Outside Connections ** Enabled **
+=> 1758376843-Network Skins ** Enabled **
+=> 1764637396-Toggle It! ** Enabled **
+=> 1777173984-Broken Node Detector 0.7.1 ** Enabled **
+=> 1824254667-Campus Parks r2.0.0 ** Enabled **
+=> 1934023593-RM Crossings 3.3  ** Enabled **
+=> 2016920607-RICO Revisited 2.5.2 ** Enabled **
+=> 2025147082-Realistic Population 2 2.2 ** Enabled **
+=> 2027161563-Lifecycle Rebalance Revisited 1.6.4  ** Enabled **
+=> 2048266761-Building Usage ** Enabled **
+=> 2069057130-No Big Truck 1.3.0.2 ** Enabled **
+=> 2094830335-Gravitative Cable Car 0.3.3 ** Enabled **
+=> 2096382380-Shared Stop Enabler ** Enabled **
+=> 2101551127-Repaint 1.7.1 ** Enabled **
+=> 2104976832-Direct Connect Roads V2.7 ** Enabled **
+=> 2133705267-Advanced Building Level Control 1.2.3 ** Enabled **
+=> 2133885971-Find It! 2.9.2 ** Enabled **
+=> 2140418403-Intersection Marking Tool 1.10.2.4 ** Enabled **
+=> 2197863850-BOB - the tree and prop replacer 0.9.7.2 ** Enabled **
+=> 2262054175-Express Bus Services ** Enabled **
+=> 2275749683-Trolleybus Trailer AI ** Enabled **
+=> 2367735356-Unlimited Outside Connections Revisited 1.1 ** Enabled **
+=> 2389414419-Zoning Adjuster 1.5.6 ** Enabled **
+=> 2405917899-RON - the network replacer 1.0 ** Enabled **
+=> 2414618415-Adaptive Networks 3.16 ** Enabled **
+=> 2448824112-Load Order Mod 1.14 ** Enabled **
+=> 2454302667-Check Road Access for Growables ** Enabled **
+=> 2455665392-EYM: Enlighten Your Mouse 1.1.3 ** Enabled **
+=> 2472062376-Node Controller Renewal 3.3.2.3 ** Enabled **
+=> 2475986859-CSL Commuter Destination ** Enabled **
+=> 2487213155-UI Resolution 1.2.0.2 ** Enabled **
+=> 2494660480-Fish Warehousing ** Enabled **
+=> 2502526929-Better Road Toolbar ** Enabled **
+=> 2511258910-Building Spawn Points 1.3.1 ** Enabled **
+=> 2527486462-Tree Anarchy 1.3.5 ** Enabled **
+=> 2554483179-Date Format ** Enabled **
+=> 2559042012-Better HealthCare Toolbar Mod ** Enabled **
+=> 2559105223-Senior Citizen Center Mod ** Enabled **
+=> 2560782729-Network Multitool 1.3.3.2 ** Enabled **
+=> 2594569657-Parking Lot Snapping ** Enabled **
+=> 2630529375-Express Bus Services (TLM plugin) ** Enabled **
+=> 2654364627-More CitizenUnits 1.1.1 ** Enabled **
+=> 2674842365-Curb Height Adjuster 1.5.3 ** Enabled **
+=> 2696146165-Extended Managers 1.0.3 ** Enabled **
+=> 2710657019-More PathUnits 1.0 ** Enabled **
+=> 2740907672-Reversible Tram AI 1.0 ** Enabled **
+=> 2773460744-Better Train Boarding ** Enabled **
+=> 2774427140-Public Transport Unstucker ** Enabled **
+=> 2778750497-ACME 0.6.2 ** Enabled **
+=> 2781804786-Game Anarchy 0.9 ** Enabled **
+=> 2805340879-Transfer Controller 0.7.8 ** Enabled **
+=> 2810536248-Better Education Toolbar Mod ** Enabled **
+=> 2854004833-Campus Industries Housing Mod ** Enabled **
+=> 2858591409-Loading Screen Mod Revisited 1.0 ** Enabled **
+=> 2862121823-81 tiles 2 0.9.4 ** Enabled **
+=> 2862881785-Network Anarchy 3.0.11 ** Enabled **
+=> 2862882210-Prop Anarchy (temp fix by algernon) 0.7.5.1 ** Enabled **
+=> 2862973068-Advanced Stop Selection Revisited 2.0.0.2 ** Enabled **
+=> 2862992091-Elevated Stops Enabler Revisited 2.0.0.2 ** Enabled **
+=> 2863765284-Area Cost Adjuster 1.0.0.1 ** Enabled **
+=> 466158459-Building Themes ** Enabled **
+=> 530771650-Prefab Hook ** Enabled **
+=> 1312767991-Transport Lines Manager 14.4 ** Enabled **
+=> 1562650024-Rebalanced Industries ** Enabled **
+=> 1718245521-No Park Building Fires ** Enabled **
+=> 1764208250-More Vehicles ** Enabled **
+=> 1859100867-Klyte's Framework 1.1 ** Enabled **
+=> 1886877404-Custom Effect Loader ** Enabled **
+=> 1899640536-Theme Mixer 2 ** Enabled **
+=> 2055972178-Custom Zone Mixer 1 ** Enabled **
+=> 409069482-Fill The Houses ** Enabled **
+=> 430741600-Half Maintenance Cost ** Enabled **
+=> 445589127-Precision Engineering ** Enabled **
+=> 515489008-Extra Train Station Tracks ** Enabled **
+=> 523824395-Clouds & Fog Toggler ** Enabled **
+=> 530871278-Daylight Classic ** Enabled **
+=> 608517757-Sub-Buildings Tabs ** Enabled **
+=> 611254368-Environment Changer ** Enabled **
+=> 707497031-Tram Station Track ** Enabled **
+=> 724382534-One-Way Train Tracks ** Enabled **
+=> 780720853-Vehicle Effects 1.9.3 ** Enabled **
+=> 795514116-Train Converter ** Enabled **
+=> 812713438-Dynamic Resolution ** Enabled **
+=> 815103125-Extra Vehicle Effects ** Enabled **
+=> 818641631-Ambient Sounds Tuner ** Enabled **
+=> 845665815-CSL Map View ** Enabled **
+=> 928103306-Ship Converter ** Enabled **
+=> 949504539-SingleTrainTrackAI ** Enabled **
+=> 954067599-PropRotating Params ** Enabled **
+=> 1094334744-Procedural Objects 1.7.8 ** Enabled **
+=> 1274199764-Network Tiling ** Enabled **
+=> 1522785644-Infinite Demand Mod ** Enabled **
+=> 1530376523-Railway Replacer ** Enabled **
+=> 1546357276-Industries Vehicle Converter ** Enabled **
+=> 1548831935-Advanced Vehicle Options 1.9.9 ** Enabled **
+=> 1577882296-Resize It! ** Enabled **
+=> 1619685021-Move It 2.9.8 ** Enabled **
+=> 1625704117-Roundabout Builder ** Enabled **
+=> 1627986403-Bulldoze It! ** Enabled **
+=> 1656549865-Rebuild It! ** Enabled **
+=> 1661072176-Empty It! ** Enabled **
+=> 1768810491-Measure It! ** Enabled **
+=> 1776052533-Stops and Stations ** Enabled **
+=> 1804882663-Monitor It! ** Enabled **
+=> 2030755273-Automatic Pedestrian Bridge2.2 ** Enabled **
+=> 2039036102-Metro Station Converter ** Enabled **
+=> 2041457644-Patch Loader Mod v2.1.2 ** Enabled **
+=> 2065380745-Metro Replacer ** Enabled **
+=> 2074258904-Demographics ** Enabled **
+=> 2105755179-FPS Booster 0.8.3 ** Enabled **
+=> 2152013104-Network detective1.1 ** Enabled **
+=> 2172488844-Picker 1.6.8 ** Enabled **
+=> 2255219025-Unified UI 2.2 ** Enabled **
+=> 2409471930-Population Demographics ** Enabled **
+=> 2415465635-Python Console ** Enabled **
+=> 2498554116-District Stats(2.0) ** Enabled **
+=> 2498879299-District RCI(2.0) ** Enabled **
+=> 2616880500-Image Overlay 2 1.6.7 ** Enabled **
+=> 2818311563-CallAgain v1.5.2 ** Enabled **
+=> 2858654134-Traffic Volume ** Enabled **
+=> 2862940316-Extra Landscaping Tools ** Enabled **
+=> 2863849354-Watch It! Revisited ** Enabled **
+=> 2864913941-Surface Painter temporary fix ** Enabled **
+=> 2869784351-Forest Brush Revisited v1.3.11 ** Enabled **
+=> HardMode-Hard Mode ** Disabled **
+=> UnlimitedMoney-Unlimited Money ** Disabled **
+=> UnlimitedOilAndOre-Unlimited Oil And Ore ** Disabled **
+=> UnlimitedSoil-Unlimited Soil ** Disabled **
+=> UnlockAll-Unlock All ** Disabled **
+=> 2865379681-Barges - P&P Temp Fix ** Enabled **
+=> 2881031511-Compatibility Report v2.0.5 ** Enabled **
+-------------------------------------

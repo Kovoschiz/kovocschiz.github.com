@@ -1,0 +1,639 @@
+Info 0.0004594: TMPELifecycle.Awake()
+Info 0.0019108: Loading translations: TrafficManager.Resources.Translations.Menu.csv
+Info 0.0034569: Loading translations: TrafficManager.Resources.Translations.Options.csv
+Info 0.0066500: Loading translations: TrafficManager.Resources.Translations.JunctionRestrictions.csv
+Info 0.0068567: Loading translations: TrafficManager.Resources.Translations.LaneRouting.csv
+Info 0.0073703: Loading translations: TrafficManager.Resources.Translations.ModConflicts.csv
+Info 0.0076085: Loading translations: TrafficManager.Resources.Translations.ParkingRestrictions.csv
+Info 0.0077965: Loading translations: TrafficManager.Resources.Translations.PrioritySigns.csv
+Info 0.0080384: Loading translations: TrafficManager.Resources.Translations.SpeedLimits.csv
+Info 0.0090450: Loading translations: TrafficManager.Resources.Translations.TrafficLights.csv
+Info 0.0101517: Loading translations: TrafficManager.Resources.Translations.VehicleRestrictions.csv
+Info 0.0104248: Loading translations: TrafficManager.Resources.Translations.Tutorials.csv
+Info 0.0124880: Loading translations: TrafficManager.Resources.Translations.Guide.csv
+Info 0.0128579: Loading translations: TrafficManager.Resources.Translations.AI_Citizen.csv
+Info 0.0130569: Loading translations: TrafficManager.Resources.Translations.AI_Car.csv
+Info 0.0134259: TM:PE 11.7.2.0 STABLE - Build 11.7.2.21489 STABLE compiled under C:SL 1.15.1-f4
+Info 0.0137468: Enabled TM:PE has GUID 922dc4f2-b908-476f-9c80-32e2e0fb6ab2
+Info 0.0139919: Mono version: 2.0 (Visual Studio built mono)
+Info 0.0143598: Loading What's New changelogs...
+Info 0.0170963: Loading global config from file 'TMPE_GlobalConfig.xml'...
+Info 0.0190251: Global config loaded.
+Info 0.0208489: Writing global config to file 'TMPE_GlobalConfig.xml'...
+Info 0.0279253: Loaded 1 What's New changelogs
+Info 17.8678518: Options.MakeSettings() - Adding UI to mod options tabs
+Info 17.8876309: SliderOption.Value: `GuiScale` changed to 100
+Info 17.8888405: SliderOption.Value: `GuiOpacity` changed to 75
+Info 17.8896484: SliderOption.Value: `OverlayOpacity` changed to 60
+Info 17.8903452: CheckboxOption.Value: `EnableTutorial` changed to True
+Info 17.8910630: CheckboxOption.Value: `OpenUrlsInSteamOverlay` changed to True
+Info 17.8916039: CheckboxOption.PropagateTrueTo: `IgnoreDisabledMods` will propagate to `ScanForKnownIncompatibleModsAtStartup`
+Info 17.8927619: CheckboxOption.Value: `ScanForKnownIncompatibleModsAtStartup` changed to True
+Info 17.8934630: CheckboxOption.Value: `IgnoreDisabledMods` changed to True
+Info 17.9140627: CheckboxOption.PropagateTrueTo: `turnOnRedEnabled` will propagate to `junctionRestrictionsEnabled`
+Info 17.9143767: CheckboxOption.PropagateTrueTo: `allowEnterBlockedJunctions` will propagate to `junctionRestrictionsEnabled`
+Info 17.9144870: CheckboxOption.PropagateTrueTo: `allowUTurns` will propagate to `junctionRestrictionsEnabled`
+Info 17.9145848: CheckboxOption.PropagateTrueTo: `allowNearTurnOnRed` will propagate to `turnOnRedEnabled`
+Info 17.9146800: CheckboxOption.PropagateTrueTo: `allowFarTurnOnRed` will propagate to `allowNearTurnOnRed`
+Info 17.9147733: CheckboxOption.PropagateTrueTo: `allowLaneChangesWhileGoingStraight` will propagate to `junctionRestrictionsEnabled`
+Info 17.9148657: CheckboxOption.PropagateTrueTo: `trafficLightPriorityRules` will propagate to `prioritySignsEnabled`
+Info 17.9149584: CheckboxOption.PropagateTrueTo: `trafficLightPriorityRules` will propagate to `timedLightsEnabled`
+Info 17.9196238: CheckboxOption.PropagateTrueTo: `banRegularTrafficOnBusLanes` will propagate to `vehicleRestrictionsEnabled`
+Info 17.9261071: CheckboxOption.PropagateTrueTo: `PriorityRoad_CrossMainR` will propagate to `junctionRestrictionsEnabled`
+Info 17.9262250: CheckboxOption.PropagateTrueTo: `PriorityRoad_EnterBlockedYeild` will propagate to `prioritySignsEnabled`
+Info 17.9263218: CheckboxOption.PropagateTrueTo: `PriorityRoad_EnterBlockedYeild` will propagate to `junctionRestrictionsEnabled`
+Info 17.9264168: CheckboxOption.PropagateTrueTo: `PriorityRoad_StopAtEntry` will propagate to `prioritySignsEnabled`
+Info 17.9286936: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_NoCrossMainR` will propagate to `junctionRestrictionsEnabled`
+Info 17.9288025: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_NoCrossYieldR` will propagate to `junctionRestrictionsEnabled`
+Info 17.9289001: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_StayInLaneMainR` will propagate to `laneConnectorEnabled`
+Info 17.9289955: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_StayInLaneNearRabout` will propagate to `laneConnectorEnabled`
+Info 17.9290888: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_PrioritySigns` will propagate to `prioritySignsEnabled`
+Info 17.9291856: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_KeepClearYieldR` will propagate to `prioritySignsEnabled`
+Info 17.9292767: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_KeepClearYieldR` will propagate to `junctionRestrictionsEnabled`
+Info 17.9293680: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_RealisticSpeedLimits` will propagate to `customSpeedLimitsEnabled`
+Info 17.9294604: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_ParkingBanMainR` will propagate to `parkingRestrictionsEnabled`
+Info 17.9295522: CheckboxOption.PropagateTrueTo: `RoundAboutQuickFix_ParkingBanYieldR` will propagate to `parkingRestrictionsEnabled`
+Info 17.9380711: CheckboxOption.PropagateTrueTo: `prioritySignsOverlay` will propagate to `prioritySignsEnabled`
+Info 17.9382039: CheckboxOption.PropagateTrueTo: `timedLightsOverlay` will propagate to `timedLightsEnabled`
+Info 17.9383182: CheckboxOption.PropagateTrueTo: `speedLimitsOverlay` will propagate to `customSpeedLimitsEnabled`
+Info 17.9384243: CheckboxOption.PropagateTrueTo: `vehicleRestrictionsOverlay` will propagate to `vehicleRestrictionsEnabled`
+Info 17.9385184: CheckboxOption.PropagateTrueTo: `parkingRestrictionsOverlay` will propagate to `parkingRestrictionsEnabled`
+Info 17.9386112: CheckboxOption.PropagateTrueTo: `junctionRestrictionsOverlay` will propagate to `junctionRestrictionsEnabled`
+Info 17.9387041: CheckboxOption.PropagateTrueTo: `connectedLanesOverlay` will propagate to `laneConnectorEnabled`
+Info 27.9388194: TrafficManager.Resources.incompatible_mods.txt contains 90 entries
+Info 27.9404835: TM:PE Incompatible Mod Checker (True,True):
+
+  * 2040656402   Harmony 2.2-1
+  * 1393452031   Parkify r1.0.6
+  * 1412844620   Realistic Walking Speed
+  * 1591417160   Hide It!
+  * 1637663252   TM:PE 11.7.2.0 STABLE
+  * 1664509314   Custom Animation Loader (CAL)
+  * 1677913611   Smart Intersection Builder
+  * 1721492498   Optimised Outside Connections
+  * 1758376843   Network Skins
+  * 1764637396   Toggle It!
+  * 1777173984   Broken Node Detector 0.7.1
+  * 1824254667   Campus Parks r2.0.0
+  * 1934023593   RM Crossings 3.3 
+  * 2016920607   RICO Revisited 2.5.2
+  * 2025147082   Realistic Population 2 2.2
+  * 2027161563   Lifecycle Rebalance Revisited 1.6.4 
+  * 2048266761   Building Usage
+  * 2069057130   No Big Truck 1.3.0.2
+  * 2094830335   Gravitative Cable Car 0.3.3
+  * 2096382380   Shared Stop Enabler
+  * 2101551127   Repaint 1.7.1
+  * 2104976832   Direct Connect Roads V2.7
+  * 2133705267   Advanced Building Level Control 1.2.3
+  * 2133885971   Find It! 2.9.2
+  * 2140418403   Intersection Marking Tool 1.10.2.4
+  * 2197863850   BOB - the tree and prop replacer 0.9.7.2
+  * 2262054175   Express Bus Services
+  * 2275749683   Trolleybus Trailer AI
+  * 2367735356   Unlimited Outside Connections Revisited 1.1
+  * 2389414419   Zoning Adjuster 1.5.6
+  * 2405917899   RON - the network replacer 1.0
+  * 2414618415   Adaptive Networks 3.16
+  * 2448824112   Load Order Mod 1.14
+  * 2454302667   Check Road Access for Growables
+  * 2455665392   EYM: Enlighten Your Mouse 1.1.3
+  * 2472062376   Node Controller Renewal 3.3.2.3
+  * 2475986859   CSL Commuter Destination
+  * 2487213155   UI Resolution 1.2.0.2
+  * 2494660480   Fish Warehousing
+  * 2502526929   Better Road Toolbar
+  * 2511258910   Building Spawn Points 1.3.1
+  * 2527486462   Tree Anarchy 1.3.5
+  * 2554483179   Date Format
+  * 2559042012   Better HealthCare Toolbar Mod
+  * 2559105223   Senior Citizen Center Mod
+  * 2560782729   Network Multitool 1.3.3.2
+  * 2594569657   Parking Lot Snapping
+  * 2630529375   Express Bus Services (TLM plugin)
+  * 2654364627   More CitizenUnits 1.1.1
+  * 2674842365   Curb Height Adjuster 1.5.3
+  * 2696146165   Extended Managers 1.0.3
+  * 2710657019   More PathUnits 1.0
+  * 2740907672   Reversible Tram AI 1.0
+  * 2773460744   Better Train Boarding
+  * 2774427140   Public Transport Unstucker
+  * 2778750497   ACME 0.6.2
+  * 2781804786   Game Anarchy 0.9
+  * 2805340879   Transfer Controller 0.7.8
+  * 2810536248   Better Education Toolbar Mod
+  * 2854004833   Campus Industries Housing Mod
+  * 2858591409   Loading Screen Mod Revisited 1.0
+  * 2862121823   81 tiles 2 0.9.4
+  * 2862881785   Network Anarchy 3.0.11
+  * 2862882210   Prop Anarchy (temp fix by algernon) 0.7.5.1
+  * 2862973068   Advanced Stop Selection Revisited 2.0.0.2
+  * 2862992091   Elevated Stops Enabler Revisited 2.0.0.2
+  * 2863765284   Area Cost Adjuster 1.0.0.1
+  * 466158459    Building Themes
+  * 530771650    Prefab Hook
+  * 1312767991   Transport Lines Manager 14.4
+  * 1562650024   Rebalanced Industries
+  * 1718245521   No Park Building Fires
+  * 1764208250   More Vehicles
+  * 1859100867   Klyte's Framework 1.1
+  * 1886877404   Custom Effect Loader
+  * 1899640536   Theme Mixer 2
+  * 2055972178   Custom Zone Mixer 1
+  * 409069482    Fill The Houses
+  * 430741600    Half Maintenance Cost
+  * 445589127    Precision Engineering
+  * 515489008    Extra Train Station Tracks
+  * 523824395    Clouds & Fog Toggler
+  * 530871278    Daylight Classic
+  * 608517757    Sub-Buildings Tabs
+  * 611254368    Environment Changer
+  * 707497031    Tram Station Track
+  * 724382534    One-Way Train Tracks
+  * 780720853    Vehicle Effects 1.9.3
+  * 795514116    Train Converter
+  * 812713438    Dynamic Resolution
+  * 815103125    Extra Vehicle Effects
+  * 818641631    Ambient Sounds Tuner
+  * 845665815    CSL Map View
+  * 928103306    Ship Converter
+  * 949504539    SingleTrainTrackAI
+  * 954067599    PropRotating Params
+  * 1094334744   Procedural Objects 1.7.8
+  * 1274199764   Network Tiling
+  * 1522785644   Infinite Demand Mod
+  * 1530376523   Railway Replacer
+  * 1546357276   Industries Vehicle Converter
+  * 1548831935   Advanced Vehicle Options 1.9.9
+  * 1577882296   Resize It!
+  * 1619685021   Move It 2.9.8
+  * 1625704117   Roundabout Builder
+  * 1627986403   Bulldoze It!
+  * 1656549865   Rebuild It!
+  * 1661072176   Empty It!
+  * 1768810491   Measure It!
+  * 1776052533   Stops and Stations
+  * 1804882663   Monitor It!
+  * 2030755273   Automatic Pedestrian Bridge2.2
+  * 2039036102   Metro Station Converter
+  * 2041457644   Patch Loader Mod v2.1.2
+  * 2065380745   Metro Replacer
+  * 2074258904   Demographics
+  * 2105755179   FPS Booster 0.8.3
+  * 2152013104   Network detective1.1
+  * 2172488844   Picker 1.6.8
+  * 2255219025   Unified UI 2.2
+  * 2409471930   Population Demographics
+  * 2415465635   Python Console
+  * 2498554116   District Stats(2.0)
+  * 2498879299   District RCI(2.0)
+  * 2616880500   Image Overlay 2 1.6.7
+  * 2818311563   CallAgain v1.5.2
+  * 2858654134   Traffic Volume
+  * 2862940316   Extra Landscaping Tools
+  * 2863849354   Watch It! Revisited
+  * 2864913941   Surface Painter temporary fix
+  * 2869784351   Forest Brush Revisited v1.3.11
+    (local)      Hard Mode
+    (local)      Unlimited Money
+    (local)      Unlimited Oil And Ore
+    (local)      Unlimited Soil
+    (local)      Unlock All
+  * 2865379681   Barges - P&P Temp Fix
+  * 2881031511   Compatibility Report v2.0.5
+  * 2887458944   Write Everywhere 0.1
+
+Info 27.9406468: Scan complete: 0 incompatible mod(s) found
+Info 27.9408949: Expected C:SL v1.15.1-f4 - Actual C:SL v1.15.1-f4
+Info 35.4870652: TMPE patches in [me.tmpe.preload] uninstalled.
+Info 35.4891237: preload patches installed successfully
+Info 35.4895376: Preloading Managers
+Info 35.4898724: CustomPathManager.Initialize() called.
+Info 35.4899921: CustomPathManager.Initialize() CustomPathManager not found, creating new instance.
+Info 35.4998582: TMPE Path-finding patches installed successfully
+Info 35.5094616: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5100414: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5114306: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5133297: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5146719: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5164590: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5179364: Pathfinder logic: Using CustomPathFind_Current
+Info 35.5195385: Pathfinder logic: Using CustomPathFind_Current
+Info 35.7419730: CustomPathManager.WaitForAllPaths()
+Info 36.1300056: CustomPathManager.WaitForAllPaths()
+Info 125.9312159: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 127.0649774: AssetDataExtension.OnAssetLoadedImpl(): extracted data for TMPE_Records
+Info 143.9845499: Options.MakeSettings() - Adding UI to mod options tabs
+Info 157.0048288: Loading Traffic Manager: PE Data
+Info 157.0049914: Initializing flags
+Info 157.0060634: OnBeforeLoadData: ExtNodeManager
+Info 157.0062002: OnBeforeLoadData: ExtSegmentManager
+Info 157.0143319: OnBeforeLoadData: ExtSegmentEndManager
+Info 157.0144890: OnBeforeLoadData: GeometryManager
+Info 157.0149361: OnBeforeLoadData: AdvancedParkingManager
+Info 157.0150616: OnBeforeLoadData: CustomSegmentLightsManager
+Info 157.0151671: OnBeforeLoadData: ExtBuildingManager
+Info 157.0152692: OnBeforeLoadData: ExtCitizenInstanceManager
+Info 157.0154043: OnBeforeLoadData: ExtCitizenManager
+Info 157.0155297: OnBeforeLoadData: ExtPathManager
+Info 157.0156383: OnBeforeLoadData: TurnOnRedManager
+Info 157.0194212: OnBeforeLoadData: LaneArrowManager
+Info 157.0195544: OnBeforeLoadData: LaneConnectionManager
+Info 157.0210060: OnBeforeLoadData: OptionsManager
+Info 157.0211283: OnBeforeLoadData: ParkingRestrictionsManager
+Info 157.0242026: OnBeforeLoadData: RoutingManager
+Info 157.0243316: OnBeforeLoadData: SpeedLimitManager
+Info 157.0275715: OnBeforeLoadData: TrafficLightManager
+Info 157.0277434: OnBeforeLoadData: TrafficLightSimulationManager
+Info 157.0278693: OnBeforeLoadData: TrafficMeasurementManager
+Info 157.0279769: OnBeforeLoadData: TrafficPriorityManager
+Info 157.0280939: OnBeforeLoadData: UtilityManager
+Info 157.0281991: OnBeforeLoadData: VehicleRestrictionsManager
+Info 157.0283204: OnBeforeLoadData: ExtVehicleManager
+Info 157.0284255: OnBeforeLoadData: ExtLaneManager
+Info 157.0285506: OnBeforeLoadData: RoadSignThemeManager
+Info 157.0286674: OnBeforeLoadData: RoadUI
+Info 157.0287713: OnBeforeLoadData: TrafficLightTextures
+Info 157.0288726: OnBeforeLoadData: JunctionRestrictionsManager
+Info 157.0289852: Initialization done. Loading mod data now.
+Info 157.0293473: Loading VersionInfo Data! Length=424
+Info 157.0297411: Reading VersionInfo from config
+Info 157.0300106: Save game was created with TM:PE 11.7.2.21489 - Stable
+Info 157.0302413: Loading Data from New Load Routine! Length=1041368
+Info 157.5071399: Loading State from Config
+Info 157.5074660: Loading 0 extended citizens
+Info 157.5080813: Loading 134 extended citizen instances
+Info 157.5082205: Priority segments data structure (old) undefined!
+Info 157.5085833: Loading 516 priority segments (new method)
+Info 157.5186900: Loading parking restrictions data. 12 elements
+Trace 157.5188609: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 1577
+Trace 157.5193867: Setting forwardParkingAllowed=False, backwardParkingAllowed=True at segment 1974
+Trace 157.5195026: Setting forwardParkingAllowed=False, backwardParkingAllowed=True at segment 5458
+Trace 157.5196039: Setting forwardParkingAllowed=True, backwardParkingAllowed=False at segment 7226
+Trace 157.5197006: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 7451
+Trace 157.5197937: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 11856
+Trace 157.5199168: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 12619
+Trace 157.5200128: Setting forwardParkingAllowed=True, backwardParkingAllowed=False at segment 13148
+Trace 157.5201127: Setting forwardParkingAllowed=True, backwardParkingAllowed=False at segment 15980
+Trace 157.5202122: Setting forwardParkingAllowed=True, backwardParkingAllowed=False at segment 19890
+Trace 157.5203073: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 24644
+Trace 157.5204075: Setting forwardParkingAllowed=False, backwardParkingAllowed=False at segment 33331
+Info 157.5207462: Loading lane vehicle restriction data. 176 elements
+Info 157.5238517: Loading 117 timed traffic lights (new method)
+Info 157.6089854: Loading junction traffic light data (old method)
+Info 157.6096056: Loading toggled traffic lights (new method)
+Info 157.6098196: Lane arrow data structure (old) undefined!
+Info 157.6101390: Loading lane arrow data (new method)
+Info 157.6193034: Loading 413 lane connections
+Info 157.6199314: Loading 413 lane connections
+Info 157.6277809: Loading 413 lane connections
+Info 157.6280433: Loading custom default speed limit data. 0 elements
+Info 157.6283981: Loading lane speed limit data. 4289 elements
+Info 157.6321294: Loading junction restrictions. 322 elements
+Info 157.6389751: OptionsManager.LoadData: 61 bytes
+Info 157.6406846: CheckboxOption.Value: `relaxedBusses` changed to True
+Info 157.6408148: CheckboxOption.Value: `allowEnterBlockedJunctions` changed to True
+Info 157.6409372: CheckboxOption.Value: `junctionRestrictionsEnabled` changed to True
+Info 157.6410825: CheckboxOption.Value: `advancedAI` changed to True
+Info 157.6411961: CheckboxOption.Value: `highwayRules` changed to True
+Info 157.6420409: CheckboxOption.Value: `strongerRoadConditionEffects` changed to True
+Info 157.6421573: CheckboxOption.Value: `allowLaneChangesWhileGoingStraight` changed to True
+Info 157.6422666: CheckboxOption.Value: `disableDespawning` changed to True
+Info 157.6423751: CheckboxOption.Value: `prioritySignsEnabled` changed to True
+Info 157.6425224: CheckboxOption.Value: `timedLightsEnabled` changed to True
+Info 157.6426639: CheckboxOption.Value: `customSpeedLimitsEnabled` changed to True
+Info 157.6427760: CheckboxOption.Value: `vehicleRestrictionsEnabled` changed to True
+Info 157.6428785: CheckboxOption.Value: `laneConnectorEnabled` changed to True
+Info 157.6429838: CheckboxOption.Value: `parkingAI` changed to True
+Info 157.6430864: CheckboxOption.Value: `preferOuterLane` changed to True
+Info 157.6431925: CheckboxOption.Value: `individualDrivingStyle` changed to True
+Info 157.6438110: CheckboxOption.Value: `parkingRestrictionsEnabled` changed to True
+Info 157.6439370: CheckboxOption.Value: `banRegularTrafficOnBusLanes` changed to True
+Info 157.6449907: CheckboxOption.Value: `trafficLightPriorityRules` changed to True
+Info 157.6451175: CheckboxOption.Value: `realisticPublicTransport` changed to True
+Info 157.6452485: CheckboxOption.Value: `turnOnRedEnabled` changed to True
+Info 157.6453774: CheckboxOption.Value: `automaticallyAddTrafficLightsIfApplicable` changed to True
+Info 157.6455014: CheckboxOption.Value: `RoundAboutQuickFix_StayInLaneMainR` changed to True
+Info 157.6456257: CheckboxOption.Value: `RoundAboutQuickFix_StayInLaneNearRabout` changed to True
+Info 157.6457383: CheckboxOption.Value: `RoundAboutQuickFix_NoCrossMainR` changed to True
+Info 157.6458548: CheckboxOption.Value: `RoundAboutQuickFix_PrioritySigns` changed to True
+Info 157.6459633: CheckboxOption.Value: `RoundAboutQuickFix_KeepClearYieldR` changed to True
+Info 157.6460737: CheckboxOption.Value: `RoundAboutQuickFix_RealisticSpeedLimits` changed to True
+Info 157.6461857: CheckboxOption.Value: `RoundAboutQuickFix_ParkingBanMainR` changed to True
+Info 157.6462938: CheckboxOption.Value: `RoundAboutQuickFix_ParkingBanYieldR` changed to True
+Info 157.6464068: CheckboxOption.Value: `NoDoubleCrossings` changed to True
+Info 157.6465401: CheckboxOption.Value: `DedicatedTurningLanes` changed to True
+Info 157.6466781: OnLoadData completed successfully.
+Info 157.6467877: OnAfterLoadData: ExtNodeManager
+Info 157.6469214: OnAfterLoadData: ExtSegmentManager
+Info 157.6470406: OnAfterLoadData: ExtSegmentEndManager
+Info 157.6471460: OnAfterLoadData: GeometryManager
+Info 157.6472545: OnAfterLoadData: AdvancedParkingManager
+Info 157.6473704: OnAfterLoadData: CustomSegmentLightsManager
+Info 157.6475208: OnAfterLoadData: ExtBuildingManager
+Info 157.6476662: OnAfterLoadData: ExtCitizenInstanceManager
+Info 157.6478118: OnAfterLoadData: ExtCitizenManager
+Info 157.6479496: OnAfterLoadData: ExtPathManager
+Info 157.6480831: OnAfterLoadData: TurnOnRedManager
+Info 157.6482138: OnAfterLoadData: LaneArrowManager
+Info 157.6563729: OnAfterLoadData: LaneConnectionManager
+Info 157.6565724: OnAfterLoadData: OptionsManager
+Info 157.6567809: OptionsManger.OnAfterLoadData() checking for queued method calls
+Info 157.6568917: OnAfterLoadData: ParkingRestrictionsManager
+Info 157.6570104: OnAfterLoadData: RoutingManager
+Info 157.7871422: OnAfterLoadData: SpeedLimitManager
+Info 157.7873423: OnAfterLoadData: TrafficLightManager
+Info 157.7874865: OnAfterLoadData: TrafficLightSimulationManager
+Info 157.7876225: OnAfterLoadData: TrafficMeasurementManager
+Info 157.7877385: OnAfterLoadData: TrafficPriorityManager
+Info 157.7878586: OnAfterLoadData: UtilityManager
+Info 157.7879672: OnAfterLoadData: VehicleRestrictionsManager
+Info 157.7880907: OnAfterLoadData: ExtVehicleManager
+Info 157.7910024: OnAfterLoadData: ExtLaneManager
+Info 157.7911483: OnAfterLoadData: RoadSignThemeManager
+Info 157.7912647: OnAfterLoadData: RoadUI
+Info 157.7913840: OnAfterLoadData: TrafficLightTextures
+Info 157.7915048: OnAfterLoadData: JunctionRestrictionsManager
+Info 158.0493130: TMPE patches installed successfully
+Info 167.5407832: OptionsManager.UpdateJunctionRestrictionsManager()
+Info 167.5597169: OptionsManager.UpdateRoutingManager()
+Info 167.5602535: OptionsManager.UpdateJunctionRestrictionsManager()
+Info 167.5730036: OptionsManager.UpdateRoutingManager()
+Info 167.5736236: UpdateDedicatedTurningLanePolicy(recalculateRoutings:False) was called.
+Info 167.5744355: OptionsManager.UpdateJunctionRestrictionsManager()
+Info 167.5865799: OptionsManager.UpdateDedicatedTurningLanes()
+Info 167.5867642: UpdateDedicatedTurningLanePolicy(recalculateRoutings:True) was called.
+Info 168.4453707: TMPELifecycle.Load() called. Mode=LoadGame, UpdateMode=LoadGame, Scene=Game
+Info 168.4458385: Expected C:SL v1.15.1-f4 - Actual C:SL v1.15.1-f4
+Info 168.5882821: Notifying managers...
+Info 168.5884414: OnLevelLoading: ExtNodeManager
+Info 168.5886324: OnLevelLoading: ExtSegmentManager
+Info 168.5887612: OnLevelLoading: ExtSegmentEndManager
+Info 168.6500657: OnLevelLoading: GeometryManager
+Info 168.6502373: OnLevelLoading: AdvancedParkingManager
+Info 168.6503589: OnLevelLoading: CustomSegmentLightsManager
+Info 168.6510473: OnLevelLoading: ExtBuildingManager
+Info 168.6511657: OnLevelLoading: ExtCitizenInstanceManager
+Info 168.6512870: OnLevelLoading: ExtCitizenManager
+Info 168.6513952: OnLevelLoading: ExtPathManager
+Info 168.6515149: OnLevelLoading: TurnOnRedManager
+Info 168.6516364: OnLevelLoading: LaneArrowManager
+Info 168.6518572: UpdateDedicatedTurningLanePolicy(recalculateRoutings:False) was called.
+Info 168.6519729: OnLevelLoading: LaneConnectionManager
+Info 168.6520888: OnLevelLoading: OptionsManager
+Info 168.6521908: OnLevelLoading: ParkingRestrictionsManager
+Info 168.6522932: OnLevelLoading: RoutingManager
+Info 168.6523930: OnLevelLoading: SpeedLimitManager
+Info 168.6524948: OnLevelLoading: TrafficLightManager
+Info 168.6525982: OnLevelLoading: TrafficLightSimulationManager
+Info 168.6526961: OnLevelLoading: TrafficMeasurementManager
+Info 168.6527955: OnLevelLoading: TrafficPriorityManager
+Info 168.6529174: OnLevelLoading: UtilityManager
+Info 168.6530168: OnLevelLoading: VehicleRestrictionsManager
+Info 168.6531260: OnLevelLoading: ExtVehicleManager
+Info 168.6532265: OnLevelLoading: ExtLaneManager
+Info 168.6533504: OnLevelLoading: RoadSignThemeManager
+Info 168.7539961: OnLevelLoading: RoadUI
+Info 168.7795565: OnLevelLoading: TrafficLightTextures
+Info 168.8004989: OnLevelLoading: JunctionRestrictionsManager
+Info 168.8116024: OnLevelLoaded complete.
+Trace 175.2843392: TrafficLightSimulation.Update(): called for node 254
+Trace 175.2845935: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 254.
+Trace 175.2858231: TrafficLightSimulation.Update(): called for node 759
+Trace 175.2859372: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 759.
+Trace 175.2862317: TrafficLightSimulation.Update(): called for node 878
+Trace 175.2863303: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 878.
+Trace 175.2867376: TrafficLightSimulation.Update(): called for node 1132
+Trace 175.2868341: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 1132.
+Trace 175.2873230: TrafficLightSimulation.Update(): called for node 1665
+Trace 175.2874196: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 1665.
+Trace 175.2878605: TrafficLightSimulation.Update(): called for node 1814
+Trace 175.2879720: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 1814.
+Trace 175.2885750: TrafficLightSimulation.Update(): called for node 1988
+Trace 175.2886723: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 1988.
+Trace 175.2889939: TrafficLightSimulation.Update(): called for node 2013
+Trace 175.2890914: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2013.
+Trace 175.2893268: TrafficLightSimulation.Update(): called for node 2072
+Trace 175.2894203: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2072.
+Trace 175.2897150: TrafficLightSimulation.Update(): called for node 2151
+Trace 175.2898093: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2151.
+Trace 175.2901785: TrafficLightSimulation.Update(): called for node 2191
+Trace 175.2902738: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2191.
+Trace 175.2907875: TrafficLightSimulation.Update(): called for node 2692
+Trace 175.2908856: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2692.
+Trace 175.2914302: TrafficLightSimulation.Update(): called for node 2955
+Trace 175.2915272: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 2955.
+Trace 175.2919870: TrafficLightSimulation.Update(): called for node 3676
+Trace 175.2920830: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 3676.
+Trace 175.2924249: TrafficLightSimulation.Update(): called for node 3832
+Trace 175.2925194: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 3832.
+Trace 175.2928613: TrafficLightSimulation.Update(): called for node 4141
+Trace 175.2930385: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 4141.
+Trace 175.2934015: TrafficLightSimulation.Update(): called for node 4586
+Trace 175.2934995: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 4586.
+Trace 175.2938143: TrafficLightSimulation.Update(): called for node 4886
+Trace 175.2939099: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 4886.
+Trace 175.2943417: TrafficLightSimulation.Update(): called for node 5491
+Trace 175.2944398: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 5491.
+Trace 175.2948241: TrafficLightSimulation.Update(): called for node 5703
+Trace 175.2949189: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 5703.
+Trace 175.2953039: TrafficLightSimulation.Update(): called for node 5778
+Trace 175.2954011: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 5778.
+Trace 175.2958427: TrafficLightSimulation.Update(): called for node 6135
+Trace 175.2959482: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 6135.
+Trace 175.2962172: TrafficLightSimulation.Update(): called for node 6259
+Trace 175.2963152: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 6259.
+Trace 175.2966853: TrafficLightSimulation.Update(): called for node 6540
+Trace 175.2967853: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 6540.
+Trace 175.2973101: TrafficLightSimulation.Update(): called for node 6874
+Trace 175.2974072: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 6874.
+Trace 175.2977740: TrafficLightSimulation.Update(): called for node 6950
+Trace 175.2978721: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 6950.
+Trace 175.2981754: TrafficLightSimulation.Update(): called for node 7433
+Trace 175.2982723: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 7433.
+Trace 175.2985170: TrafficLightSimulation.Update(): called for node 7484
+Trace 175.2986226: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 7484.
+Trace 175.2989224: TrafficLightSimulation.Update(): called for node 7537
+Trace 175.2990297: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 7537.
+Trace 175.2993966: TrafficLightSimulation.Update(): called for node 8052
+Trace 175.2994913: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8052.
+Trace 175.2998016: TrafficLightSimulation.Update(): called for node 8071
+Trace 175.2998957: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8071.
+Trace 175.3002755: TrafficLightSimulation.Update(): called for node 8122
+Trace 175.3003736: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8122.
+Trace 175.3007516: TrafficLightSimulation.Update(): called for node 8168
+Trace 175.3008483: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8168.
+Trace 175.3012862: TrafficLightSimulation.Update(): called for node 8175
+Trace 175.3013831: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8175.
+Trace 175.3020476: TrafficLightSimulation.Update(): called for node 8411
+Trace 175.3021433: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8411.
+Trace 175.3025695: TrafficLightSimulation.Update(): called for node 8564
+Trace 175.3026670: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8564.
+Trace 175.3030034: TrafficLightSimulation.Update(): called for node 8817
+Trace 175.3030987: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 8817.
+Trace 175.3034695: TrafficLightSimulation.Update(): called for node 9530
+Trace 175.3035657: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9530.
+Trace 175.3038523: TrafficLightSimulation.Update(): called for node 9577
+Trace 175.3039551: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9577.
+Trace 175.3043712: TrafficLightSimulation.Update(): called for node 9579
+Trace 175.3044658: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9579.
+Trace 175.3047706: TrafficLightSimulation.Update(): called for node 9602
+Trace 175.3048636: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9602.
+Trace 175.3051887: TrafficLightSimulation.Update(): called for node 9714
+Trace 175.3052856: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9714.
+Trace 175.3056974: TrafficLightSimulation.Update(): called for node 9725
+Trace 175.3057905: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 9725.
+Trace 175.3061902: TrafficLightSimulation.Update(): called for node 10727
+Trace 175.3062851: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 10727.
+Trace 175.3065774: TrafficLightSimulation.Update(): called for node 11385
+Trace 175.3066695: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 11385.
+Trace 175.3070485: TrafficLightSimulation.Update(): called for node 11815
+Trace 175.3071445: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 11815.
+Trace 175.3074745: TrafficLightSimulation.Update(): called for node 12348
+Trace 175.3075676: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 12348.
+Trace 175.3079877: TrafficLightSimulation.Update(): called for node 12929
+Trace 175.3080874: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 12929.
+Trace 175.3084547: TrafficLightSimulation.Update(): called for node 13489
+Trace 175.3085496: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 13489.
+Trace 175.3089273: TrafficLightSimulation.Update(): called for node 13911
+Trace 175.3090782: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 13911.
+Trace 175.3094074: TrafficLightSimulation.Update(): called for node 14113
+Trace 175.3095025: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 14113.
+Trace 175.3098128: TrafficLightSimulation.Update(): called for node 14544
+Trace 175.3099097: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 14544.
+Trace 175.3102365: TrafficLightSimulation.Update(): called for node 14710
+Trace 175.3103302: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 14710.
+Trace 175.3106640: TrafficLightSimulation.Update(): called for node 14757
+Trace 175.3107575: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 14757.
+Trace 175.3111040: TrafficLightSimulation.Update(): called for node 14882
+Trace 175.3111997: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 14882.
+Trace 175.3115554: TrafficLightSimulation.Update(): called for node 15704
+Trace 175.3116510: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 15704.
+Trace 175.3120294: TrafficLightSimulation.Update(): called for node 15727
+Trace 175.3121241: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 15727.
+Trace 175.3125575: TrafficLightSimulation.Update(): called for node 16568
+Trace 175.3126530: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 16568.
+Trace 175.3131408: TrafficLightSimulation.Update(): called for node 16841
+Trace 175.3132368: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 16841.
+Trace 175.3136222: TrafficLightSimulation.Update(): called for node 17027
+Trace 175.3137204: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 17027.
+Trace 175.3141092: TrafficLightSimulation.Update(): called for node 17799
+Trace 175.3142146: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 17799.
+Trace 175.3145882: TrafficLightSimulation.Update(): called for node 17837
+Trace 175.3146823: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 17837.
+Trace 175.3151088: TrafficLightSimulation.Update(): called for node 18114
+Trace 175.3152059: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18114.
+Trace 175.3155594: TrafficLightSimulation.Update(): called for node 18310
+Trace 175.3156550: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18310.
+Trace 175.3160439: TrafficLightSimulation.Update(): called for node 18347
+Trace 175.3161416: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18347.
+Trace 175.3164680: TrafficLightSimulation.Update(): called for node 18392
+Trace 175.3165613: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18392.
+Trace 175.3169250: TrafficLightSimulation.Update(): called for node 18452
+Trace 175.3170332: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18452.
+Trace 175.3175882: TrafficLightSimulation.Update(): called for node 18464
+Trace 175.3176844: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18464.
+Trace 175.3180640: TrafficLightSimulation.Update(): called for node 18591
+Trace 175.3181597: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18591.
+Trace 175.3186754: TrafficLightSimulation.Update(): called for node 18733
+Trace 175.3187688: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 18733.
+Trace 175.3200992: TrafficLightSimulation.Update(): called for node 19129
+Trace 175.3202228: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 19129.
+Trace 175.3206456: TrafficLightSimulation.Update(): called for node 19296
+Trace 175.3207426: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 19296.
+Trace 175.3210962: TrafficLightSimulation.Update(): called for node 19800
+Trace 175.3211951: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 19800.
+Trace 175.3215680: TrafficLightSimulation.Update(): called for node 20041
+Trace 175.3216614: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 20041.
+Trace 175.3220649: TrafficLightSimulation.Update(): called for node 20167
+Trace 175.3221613: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 20167.
+Trace 175.3226014: TrafficLightSimulation.Update(): called for node 20963
+Trace 175.3226985: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 20963.
+Trace 175.3230666: TrafficLightSimulation.Update(): called for node 21109
+Trace 175.3231618: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 21109.
+Trace 175.3234743: TrafficLightSimulation.Update(): called for node 21278
+Trace 175.3235662: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 21278.
+Trace 175.3239118: TrafficLightSimulation.Update(): called for node 21439
+Trace 175.3240894: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 21439.
+Trace 175.3244939: TrafficLightSimulation.Update(): called for node 21558
+Trace 175.3245939: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 21558.
+Trace 175.3249930: TrafficLightSimulation.Update(): called for node 22255
+Trace 175.3250927: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 22255.
+Trace 175.3253781: TrafficLightSimulation.Update(): called for node 22361
+Trace 175.3254724: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 22361.
+Trace 175.3258915: TrafficLightSimulation.Update(): called for node 23300
+Trace 175.3260203: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23300.
+Trace 175.3264486: TrafficLightSimulation.Update(): called for node 23499
+Trace 175.3265679: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23499.
+Trace 175.3268282: TrafficLightSimulation.Update(): called for node 23551
+Trace 175.3269804: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23551.
+Trace 175.3273778: TrafficLightSimulation.Update(): called for node 23710
+Trace 175.3274814: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23710.
+Trace 175.3278883: TrafficLightSimulation.Update(): called for node 23734
+Trace 175.3279928: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23734.
+Trace 175.3283688: TrafficLightSimulation.Update(): called for node 23816
+Trace 175.3284648: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23816.
+Trace 175.3287544: TrafficLightSimulation.Update(): called for node 23833
+Trace 175.3288481: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 23833.
+Trace 175.3292735: TrafficLightSimulation.Update(): called for node 24994
+Trace 175.3293727: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 24994.
+Trace 175.3297641: TrafficLightSimulation.Update(): called for node 25099
+Trace 175.3298577: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 25099.
+Trace 175.3302799: TrafficLightSimulation.Update(): called for node 25109
+Trace 175.3303789: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 25109.
+Trace 175.3306582: TrafficLightSimulation.Update(): called for node 25429
+Trace 175.3307546: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 25429.
+Trace 175.3310631: TrafficLightSimulation.Update(): called for node 25799
+Trace 175.3311566: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 25799.
+Trace 175.3314627: TrafficLightSimulation.Update(): called for node 25876
+Trace 175.3315810: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 25876.
+Trace 175.3319114: TrafficLightSimulation.Update(): called for node 26261
+Trace 175.3320179: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 26261.
+Trace 175.3323134: TrafficLightSimulation.Update(): called for node 26372
+Trace 175.3324208: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 26372.
+Trace 175.3327862: TrafficLightSimulation.Update(): called for node 26589
+Trace 175.3328804: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 26589.
+Trace 175.3333199: TrafficLightSimulation.Update(): called for node 26616
+Trace 175.3334239: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 26616.
+Trace 175.3338464: TrafficLightSimulation.Update(): called for node 27212
+Trace 175.3339495: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 27212.
+Trace 175.3342986: TrafficLightSimulation.Update(): called for node 27522
+Trace 175.3343911: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 27522.
+Trace 175.3347058: TrafficLightSimulation.Update(): called for node 27769
+Trace 175.3347991: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 27769.
+Trace 175.3351646: TrafficLightSimulation.Update(): called for node 28028
+Trace 175.3352645: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 28028.
+Trace 175.3356800: TrafficLightSimulation.Update(): called for node 28146
+Trace 175.3357749: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 28146.
+Trace 175.3362078: TrafficLightSimulation.Update(): called for node 28215
+Trace 175.3363064: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 28215.
+Trace 175.3369689: TrafficLightSimulation.Update(): called for node 29091
+Trace 175.3370926: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 29091.
+Trace 175.3374797: TrafficLightSimulation.Update(): called for node 29369
+Trace 175.3375840: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 29369.
+Trace 175.3380115: TrafficLightSimulation.Update(): called for node 29794
+Trace 175.3381189: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 29794.
+Trace 175.3385206: TrafficLightSimulation.Update(): called for node 30361
+Trace 175.3386244: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 30361.
+Trace 175.3390078: TrafficLightSimulation.Update(): called for node 30388
+Trace 175.3391072: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 30388.
+Trace 175.3393847: TrafficLightSimulation.Update(): called for node 30459
+Trace 175.3394844: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 30459.
+Trace 175.3396816: TrafficLightSimulation.Update(): called for node 30804
+Trace 175.3397754: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 30804.
+Trace 175.3402896: TrafficLightSimulation.Update(): called for node 31083
+Trace 175.3403858: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 31083.
+Trace 175.3408661: TrafficLightSimulation.Update(): called for node 31481
+Trace 175.3409942: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 31481.
+Trace 175.3413843: TrafficLightSimulation.Update(): called for node 32129
+Trace 175.3414796: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 32129.
+Trace 175.3417913: TrafficLightSimulation.Update(): called for node 32570
+Trace 175.3418847: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 32570.
+Trace 175.3422988: TrafficLightSimulation.Update(): called for node 32620
+Trace 175.3423940: TimedTrafficLights.OnGeometryUpdate: called for timed traffic light @ 32620.
+Info 186.6215875: Initializing traffic manager tool...
+Info 186.6233285: TrafficManagerTool: Initialization running now.
+Info 186.6337329: TrafficManagerTool.InitializeSubTools()
+Info 186.6496446: TrafficManagerTool: Initialization completed.
+Info 186.6640194: Initializing traffic manager tool...
+Info 186.7850087: Setting main menu button position to [630,0]

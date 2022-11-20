@@ -1,0 +1,5 @@
+[2022-09-17 20:32:51.9105][ER  ][v3.0.0 r1    ][WARNING ] Patching all: com.klyte.redirectors.ER
+[2022-09-17 20:32:51.9406][ER  ][v3.0.0 r1    ][WARNING ] Loading default hooks
+[2022-09-17 20:45:40.0737][ER  ][v3.0.0 r1    ][WARNING ] Patching all: com.klyte.redirectors.ER
+[2022-09-17 20:45:40.1250][ER  ][v3.0.0 r1    ][WARNING ] Loading default hooks
+[2022-09-17 20:48:29.6985][ER  ][v3.0.0 r1    ][WARNING ] Unpatching all: com.klyte.redirectors.ER

@@ -1,0 +1,179 @@
+Info 0.0004252: SharedStops enabled 1.1.6.0
+Info 169.1216057: OnLevelLoaded: LoadGame
+Error 169.1719478: [SSE] custom road 1351881090.Basic Road Slope1 (NetInfo) without lanes found. Can't enable Shared Stops!
+   at SharedStopEnabler.Util.Log.WriteToFile(System.String log, LogType type)
+   at SharedStopEnabler.Util.Log.Error(System.String s)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableStops(.NetInfo info, VehicleType firstStopType, VehicleType middleStopType, VehicleType secondStopType)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableElevatedStops()
+   at SharedStopEnabler.StopSelection.SharedStopsTool.Start()
+   at SharedStopEnabler.SharedStopsLoadingExtension.OnLevelLoaded(LoadMode mode)
+   at LoadingWrapper.LoadingWrapper.OnLevelLoaded_Patch9(.LoadingWrapper , UpdateMode )
+   at LoadingManager+<LoadLevelComplete>c__Iterator9.LoadingManager+<LoadLevelComplete>c__Iterator9.MoveNext_Patch1(.<LoadLevelComplete>c__Iterator9 )
+   at LoadingManager.FpsBoosterUpdate()
+   at BehaviourUpdater.Updater.Update()
+
+Error 169.1723983: [SSE] custom road 1351881090.Basic Road Tunnel1 (NetInfo) without lanes found. Can't enable Shared Stops!
+   at SharedStopEnabler.Util.Log.WriteToFile(System.String log, LogType type)
+   at SharedStopEnabler.Util.Log.Error(System.String s)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableStops(.NetInfo info, VehicleType firstStopType, VehicleType middleStopType, VehicleType secondStopType)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableElevatedStops()
+   at SharedStopEnabler.StopSelection.SharedStopsTool.Start()
+   at SharedStopEnabler.SharedStopsLoadingExtension.OnLevelLoaded(LoadMode mode)
+   at LoadingWrapper.LoadingWrapper.OnLevelLoaded_Patch9(.LoadingWrapper , UpdateMode )
+   at LoadingManager+<LoadLevelComplete>c__Iterator9.LoadingManager+<LoadLevelComplete>c__Iterator9.MoveNext_Patch1(.<LoadLevelComplete>c__Iterator9 )
+   at LoadingManager.FpsBoosterUpdate()
+   at BehaviourUpdater.Updater.Update()
+
+Info 169.2197027: successful startup
+Info 169.2372704: found mod 2040656402 2040656402 Harmony 2.2-1
+Info 169.2375596: found mod 1393452031 1393452031 Parkify r1.0.6
+Info 169.2376658: found mod 1412844620 1412844620 Realistic Walking Speed
+Info 169.2377683: found mod 1591417160 1591417160 Hide It!
+Info 169.2378770: found mod 1637663252 1637663252 TM:PE 11.7.2.0 STABLE
+Info 169.2379929: found mod 1664509314 1664509314 Custom Animation Loader (CAL)
+Info 169.2381024: found mod 1677913611 1677913611 Smart Intersection Builder
+Info 169.2382114: found mod 1721492498 1721492498 Optimised Outside Connections
+Info 169.2383029: found mod 1758376843 1758376843 Network Skins
+Info 169.2384091: found mod 1764637396 1764637396 Toggle It!
+Info 169.2385142: found mod 1777173984 1777173984 Broken Node Detector 0.7.1
+Info 169.2390188: found mod 1824254667 1824254667 Campus Parks r2.0.0
+Info 169.2391308: found mod 1934023593 1934023593 RM Crossings 3.3 
+Info 169.2392361: found mod 2016920607 2016920607 RICO Revisited 2.5.2
+Info 169.2393380: found mod 2025147082 2025147082 Realistic Population 2 2.2
+Info 169.2394308: found mod 2027161563 2027161563 Lifecycle Rebalance Revisited 1.6.4 
+Info 169.2395210: found mod 2048266761 2048266761 Building Usage
+Info 169.2396266: found mod 2069057130 2069057130 No Big Truck 1.3.0.2
+Info 169.2397195: found mod 2094830335 2094830335 Gravitative Cable Car 0.3.3
+Info 169.2398094: found mod 2096382380 2096382380 Shared Stop Enabler
+Info 169.2399074: found mod 2101551127 2101551127 Repaint 1.7.1
+Info 169.2400177: found mod 2104976832 2104976832 Direct Connect Roads V2.7
+Info 169.2401217: found mod 2133705267 2133705267 Advanced Building Level Control 1.2.3
+Info 169.2402152: found mod 2133885971 2133885971 Find It! 2.9.2
+Info 169.2403184: found mod 2140418403 2140418403 Intersection Marking Tool 1.10.2.4
+Info 169.2404195: found mod 2197863850 2197863850 BOB - the tree and prop replacer 0.9.7.2
+Info 169.2405101: found mod 2262054175 2262054175 Express Bus Services
+Info 169.2405990: found mod 2275749683 2275749683 Trolleybus Trailer AI
+Info 169.2407295: found mod 2367735356 2367735356 Unlimited Outside Connections Revisited 1.1
+Info 169.2408340: found mod 2389414419 2389414419 Zoning Adjuster 1.5.6
+Info 169.2409420: found mod 2405917899 2405917899 RON - the network replacer 1.0
+Info 169.2410445: found mod 2414618415 2414618415 Adaptive Networks 3.16
+Info 169.2411422: found mod 2448824112 2448824112 Load Order Mod 1.14
+Info 169.2412328: found mod 2454302667 2454302667 Check Road Access for Growables
+Info 169.2413239: found mod 2455665392 2455665392 EYM: Enlighten Your Mouse 1.1.3
+Info 169.2414261: found mod 2472062376 2472062376 Node Controller Renewal 3.3.2.3
+Info 169.2415177: found mod 2475986859 2475986859 CSL Commuter Destination
+Info 169.2416201: found mod 2487213155 2487213155 UI Resolution 1.2.0.2
+Info 169.2417102: found mod 2494660480 2494660480 Fish Warehousing
+Info 169.2417998: found mod 2502526929 2502526929 Better Road Toolbar
+Info 169.2419019: found mod 2511258910 2511258910 Building Spawn Points 1.3.1
+Info 169.2420027: found mod 2527486462 2527486462 Tree Anarchy 1.3.5
+Info 169.2420929: found mod 2554483179 2554483179 Date Format
+Info 169.2421806: found mod 2559042012 2559042012 Better HealthCare Toolbar Mod
+Info 169.2422700: found mod 2559105223 2559105223 Senior Citizen Center Mod
+Info 169.2423715: found mod 2560782729 2560782729 Network Multitool 1.3.3.2
+Info 169.2424645: found mod 2594569657 2594569657 Parking Lot Snapping
+Info 169.2425527: found mod 2630529375 2630529375 Express Bus Services (TLM plugin)
+Info 169.2426421: found mod 2654364627 2654364627 More CitizenUnits 1.1.1
+Info 169.2427411: found mod 2674842365 2674842365 Curb Height Adjuster 1.5.3
+Info 169.2428307: found mod 2696146165 2696146165 Extended Managers 1.0.3
+Info 169.2429215: found mod 2710657019 2710657019 More PathUnits 1.0
+Info 169.2430224: found mod 2740907672 2740907672 Reversible Tram AI 1.0
+Info 169.2431114: found mod 2773460744 2773460744 Better Train Boarding
+Info 169.2432003: found mod 2774427140 2774427140 Public Transport Unstucker
+Info 169.2433026: found mod 2778750497 2778750497 ACME 0.6.2
+Info 169.2433933: found mod 2781804786 2781804786 Game Anarchy 0.9
+Info 169.2434939: found mod 2805340879 2805340879 Transfer Controller 0.7.8
+Info 169.2435857: found mod 2810536248 2810536248 Better Education Toolbar Mod
+Info 169.2436737: found mod 2854004833 2854004833 Campus Industries Housing Mod
+Info 169.2437716: found mod 2858591409 2858591409 Loading Screen Mod Revisited 1.0
+Info 169.2438764: found mod 2862121823 2862121823 81 tiles 2 0.9.4
+Info 169.2439975: found mod 2862881785 2862881785 Network Anarchy 3.0.11
+Info 169.2440899: found mod 2862882210 2862882210 Prop Anarchy (temp fix by algernon) 0.7.5.1
+Info 169.2441915: found mod 2862973068 2862973068 Advanced Stop Selection Revisited 2.0.0.2
+Info 169.2442921: found mod 2862992091 2862992091 Elevated Stops Enabler Revisited 2.0.0.2
+Info 169.2443915: found mod 2863765284 2863765284 Area Cost Adjuster 1.0.0.1
+Info 169.2444825: found mod 466158459 466158459 Building Themes
+Info 169.2445720: found mod 530771650 530771650 Prefab Hook
+Info 169.2446766: found mod 1312767991 1312767991 Transport Lines Manager 14.4
+Info 169.2447655: found mod 1562650024 1562650024 Rebalanced Industries
+Info 169.2448542: found mod 1718245521 1718245521 No Park Building Fires
+Info 169.2449532: found mod 1764208250 1764208250 More Vehicles
+Info 169.2450682: found mod 1859100867 1859100867 Klyte's Framework 1.1
+Info 169.2451584: found mod 1886877404 1886877404 Custom Effect Loader
+Info 169.2452474: found mod 1899640536 1899640536 Theme Mixer 2
+Info 169.2453459: found mod 2055972178 2055972178 Custom Zone Mixer 1
+Info 169.2454337: found mod 409069482 409069482 Fill The Houses
+Info 169.2455219: found mod 430741600 430741600 Half Maintenance Cost
+Info 169.2456104: found mod 445589127 445589127 Precision Engineering
+Info 169.2456988: found mod 515489008 515489008 Extra Train Station Tracks
+Info 169.2457851: found mod 523824395 523824395 Clouds & Fog Toggler
+Info 169.2458724: found mod 530871278 530871278 Daylight Classic
+Info 169.2459905: found mod 608517757 608517757 Sub-Buildings Tabs
+Info 169.2460967: found mod 611254368 611254368 Environment Changer
+Info 169.2461843: found mod 707497031 707497031 Tram Station Track
+Info 169.2462729: found mod 724382534 724382534 One-Way Train Tracks
+Info 169.2463594: found mod 780720853 780720853 Vehicle Effects 1.9.3
+Info 169.2464471: found mod 795514116 795514116 Train Converter
+Info 169.2465337: found mod 812713438 812713438 Dynamic Resolution
+Info 169.2466218: found mod 815103125 815103125 Extra Vehicle Effects
+Info 169.2467079: found mod 818641631 818641631 Ambient Sounds Tuner
+Info 169.2467952: found mod 845665815 845665815 CSL Map View
+Info 169.2468854: found mod 928103306 928103306 Ship Converter
+Info 169.2470205: found mod 949504539 949504539 SingleTrainTrackAI
+Info 169.2471183: found mod 954067599 954067599 PropRotating Params
+Info 169.2472104: found mod 1094334744 1094334744 Procedural Objects 1.7.8
+Info 169.2472979: found mod 1274199764 1274199764 Network Tiling
+Info 169.2473870: found mod 1522785644 1522785644 Infinite Demand Mod
+Info 169.2474830: found mod 1530376523 1530376523 Railway Replacer
+Info 169.2475725: found mod 1546357276 1546357276 Industries Vehicle Converter
+Info 169.2476631: found mod 1548831935 1548831935 Advanced Vehicle Options 1.9.9
+Info 169.2477520: found mod 1577882296 1577882296 Resize It!
+Info 169.2478403: found mod 1619685021 1619685021 Move It 2.9.8
+Info 169.2479298: found mod 1625704117 1625704117 Roundabout Builder
+Info 169.2480302: found mod 1627986403 1627986403 Bulldoze It!
+Info 169.2481174: found mod 1656549865 1656549865 Rebuild It!
+Info 169.2482054: found mod 1661072176 1661072176 Empty It!
+Info 169.2482931: found mod 1768810491 1768810491 Measure It!
+Info 169.2483811: found mod 1776052533 1776052533 Stops and Stations
+Info 169.2484704: found mod 1804882663 1804882663 Monitor It!
+Info 169.2485682: found mod 2030755273 2030755273 Automatic Pedestrian Bridge2.2
+Info 169.2486588: found mod 2039036102 2039036102 Metro Station Converter
+Info 169.2487468: found mod 2041457644 2041457644 Patch Loader Mod v2.1.2
+Info 169.2488344: found mod 2065380745 2065380745 Metro Replacer
+Info 169.2489218: found mod 2074258904 2074258904 Demographics
+Info 169.2490253: found mod 2105755179 2105755179 FPS Booster 0.8.3
+Info 169.2491378: found mod 2152013104 2152013104 Network detective1.1
+Info 169.2492470: found mod 2172488844 2172488844 Picker 1.6.8
+Info 169.2493470: found mod 2255219025 2255219025 Unified UI 2.2
+Info 169.2494369: found mod 2409471930 2409471930 Population Demographics
+Info 169.2495250: found mod 2415465635 2415465635 Python Console
+Info 169.2496160: found mod 2498554116 2498554116 District Stats(2.0)
+Info 169.2497047: found mod 2498879299 2498879299 District RCI(2.0)
+Info 169.2497925: found mod 2616880500 2616880500 Image Overlay 2 1.6.7
+Info 169.2498801: found mod 2818311563 2818311563 CallAgain v1.5.2
+Info 169.2499957: found mod 2858654134 2858654134 Traffic Volume
+Info 169.2500859: found mod 2862940316 2862940316 Extra Landscaping Tools
+Info 169.2501748: found mod 2863849354 2863849354 Watch It! Revisited
+Info 169.2502614: found mod 2864913941 2864913941 Surface Painter temporary fix
+Info 169.2503486: found mod 2869784351 2869784351 Forest Brush Revisited v1.3.11
+Info 169.2504359: found mod 2865379681 2865379681 Barges - P&P Temp Fix
+Info 169.2505216: found mod 2881031511 2881031511 Compatibility Report v2.0.5
+Info 169.2506237: found mod 2887458944 2887458944 Write Everywhere 0.1
+Info 169.2507140: Manual patching TransportTool_GetStopPosition...
+Info 169.2509368: Boolean GetStopPosition(TransportInfo, UInt16, UInt16, UInt16, Vector3 ByRef, Boolean ByRef), IEnumerable`1 Transpiler(IEnumerable`1)
+Info 169.2564757: Patches deployed
+Error 190.8582469: [SSE] custom road 1351881090.Basic Road Slope1 (NetInfo) without lanes found. Can't enable Shared Stops!
+   at SharedStopEnabler.Util.Log.WriteToFile(System.String log, LogType type)
+   at SharedStopEnabler.Util.Log.Error(System.String s)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableStops(.NetInfo info, VehicleType firstStopType, VehicleType middleStopType, VehicleType secondStopType)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableElevatedStops()
+   at SharedStopEnabler.StopSelection.SharedStopsTool.Start()
+
+Error 190.8586065: [SSE] custom road 1351881090.Basic Road Tunnel1 (NetInfo) without lanes found. Can't enable Shared Stops!
+   at SharedStopEnabler.Util.Log.WriteToFile(System.String log, LogType type)
+   at SharedStopEnabler.Util.Log.Error(System.String s)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableStops(.NetInfo info, VehicleType firstStopType, VehicleType middleStopType, VehicleType secondStopType)
+   at SharedStopEnabler.StopSelection.StopsUtil.EnableElevatedStops()
+   at SharedStopEnabler.StopSelection.SharedStopsTool.Start()
+
+Info 190.9092020: successful startup

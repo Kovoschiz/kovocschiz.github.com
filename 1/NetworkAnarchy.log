@@ -1,0 +1,17 @@
+[Info] 0.0008326 | NetworkAnarchy v3.0.11.17046 at 20/11/2022 16:40:46 (8:00)
+[Info] 0.0143005 | [NA13] NetworkAnarchy: Deployed early patches
+[Info] 14.4433573 | [NA48] Network Anarchy Locale changed ->en
+[Info] 16.0017740 | [NA48] Network Anarchy Locale changed en->en
+[Info] 141.0524792 | [NA48] Network Anarchy Locale changed en->en
+[Info] 142.4269246 | [NA48] Network Anarchy Locale changed en->en
+[Info] 170.5447747 | [NA61] NetworkAnarchy: Cross The Line not found, patch applied
+[Info] 189.2594229 | [NA09] NetworkAnarchy: Network Skins not found
+[Info] 189.2605480 | [NA06] NetworkAnarchy: Network Multitool loaded
+[Info] 189.2609363 | [NA03] NetworkAnarchy: Zoning Adjuster loaded
+[Info] 189.3895902 | [NA24] Upgrade button template not found
+[Info] 189.4390515 | [NA36] Registered networks: 3425
+[Info] 189.4677457 | [NA56] Applying Network Tiling (1189 segments, 1825 nodes)
+[Info] 189.4683133 | [NA57] Enabled outside connections for 2753 roads
+[Info] 189.4701539 | [NA22] NetworkAnarchy Initialized
+[Info] 409.6181431 | [NA38] Button parent is null (m_parent is <null>)
+  Called by:<CreateButton>b__33_1
