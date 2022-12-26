@@ -1,0 +1,1046 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-12-26T14:21:09Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "relation/12499614",
+        "addr:city": "Angelim",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Angelim",
+        "railway": "station",
+        "train": "yes",
+        "type": "multipolygon"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -36.2863031,
+              -8.8903527
+            ],
+            [
+              -36.2864648,
+              -8.8903826
+            ],
+            [
+              -36.286462,
+              -8.8903971
+            ],
+            [
+              -36.2859084,
+              -8.8902907
+            ],
+            [
+              -36.2859205,
+              -8.8902292
+            ],
+            [
+              -36.2863128,
+              -8.8903018
+            ],
+            [
+              -36.2863031,
+              -8.8903527
+            ]
+          ]
+        ]
+      },
+      "id": "relation/12499614"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/46339764",
+        "description": "Halte suprimee depuis le 26 août 2019.",
+        "disused": "yes",
+        "name": "Coulibœuf",
+        "operator": "SNCF",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "SNCF - 06/2013",
+        "train": "yes",
+        "uic_ref": "8744423",
+        "wikidata": "Q2023545",
+        "wikipedia": "fr:Gare de Coulibœuf"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.0986081,
+              48.9236979
+            ],
+            [
+              -0.0985093,
+              48.9236425
+            ],
+            [
+              -0.0983067,
+              48.9237994
+            ],
+            [
+              -0.0984056,
+              48.9238548
+            ],
+            [
+              -0.0986081,
+              48.9236979
+            ]
+          ]
+        ]
+      },
+      "id": "way/46339764"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/65176036",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Rezzato",
+        "operator": "Rete Ferroviaria Italiana",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "PCN ortofoto_colore 2006 - autorizzazione 10687/TRI",
+        "wikipedia": "it:Stazione di Rezzato"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              10.3117623,
+              45.5030014
+            ],
+            [
+              10.3116815,
+              45.5029062
+            ],
+            [
+              10.3118998,
+              45.5028152
+            ],
+            [
+              10.3119805,
+              45.5029104
+            ],
+            [
+              10.3117623,
+              45.5030014
+            ]
+          ]
+        ]
+      },
+      "id": "way/65176036"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/73506403",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Cherveux",
+        "railway": "station",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.3787595,
+              46.4293425
+            ],
+            [
+              -0.3786477,
+              46.429343
+            ],
+            [
+              -0.3786491,
+              46.4294287
+            ],
+            [
+              -0.3787637,
+              46.4294263
+            ],
+            [
+              -0.3787595,
+              46.4293425
+            ]
+          ]
+        ]
+      },
+      "id": "way/73506403"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/73736038",
+        "disused": "yes",
+        "fixme": "controler la position (+/- 20m) et le nom",
+        "name": "Ancienne Gare du Mont Mou",
+        "railway": "station",
+        "ruins": "yes",
+        "tourism": "attraction"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              166.3759482,
+              -22.1150309
+            ],
+            [
+              166.3759369,
+              -22.1151645
+            ],
+            [
+              166.376018,
+              -22.1151704
+            ],
+            [
+              166.3760294,
+              -22.1150369
+            ],
+            [
+              166.3759482,
+              -22.1150309
+            ]
+          ]
+        ]
+      },
+      "id": "way/73736038"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/74562567",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Champdeniers",
+        "railway": "station",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2010"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -0.3692455,
+              46.4654008
+            ],
+            [
+              -0.3692099,
+              46.4654461
+            ],
+            [
+              -0.3692802,
+              46.4654724
+            ],
+            [
+              -0.3693178,
+              46.4654244
+            ],
+            [
+              -0.3693262,
+              46.4654276
+            ],
+            [
+              -0.3693824,
+              46.4653557
+            ],
+            [
+              -0.3693745,
+              46.4653528
+            ],
+            [
+              -0.3694112,
+              46.465306
+            ],
+            [
+              -0.3693349,
+              46.4652774
+            ],
+            [
+              -0.3692958,
+              46.4653273
+            ],
+            [
+              -0.3692903,
+              46.4653253
+            ],
+            [
+              -0.3692344,
+              46.4653966
+            ],
+            [
+              -0.3692455,
+              46.4654008
+            ]
+          ]
+        ]
+      },
+      "id": "way/74562567"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/88506706",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Ipu",
+        "railway": "station",
+        "source": "IBGE"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -40.7066585,
+              -4.3238118
+            ],
+            [
+              -40.7067687,
+              -4.3239959
+            ],
+            [
+              -40.706539,
+              -4.3241328
+            ],
+            [
+              -40.7064287,
+              -4.3239487
+            ],
+            [
+              -40.7066585,
+              -4.3238118
+            ]
+          ]
+        ]
+      },
+      "id": "way/88506706"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/102090996",
+        "building": "yes",
+        "disused": "railway",
+        "name": "Gare de Fontvieille",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2011",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              4.7065129,
+              43.7284969
+            ],
+            [
+              4.7065316,
+              43.7284459
+            ],
+            [
+              4.7066071,
+              43.7284599
+            ],
+            [
+              4.7066204,
+              43.7284305
+            ],
+            [
+              4.7066791,
+              43.7284426
+            ],
+            [
+              4.7066484,
+              43.7285255
+            ],
+            [
+              4.7065129,
+              43.7284969
+            ]
+          ]
+        ]
+      },
+      "id": "way/102090996"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/180647809",
+        "amenity": "public_building",
+        "building": "train_station",
+        "disused": "yes",
+        "name": "La Motte-d'Aveillans",
+        "operator": "SGLM",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "cadastre-dgi-fr source : Direction Générale des Impôts - Cadastre. Mise à jour : 2012"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.735522,
+              44.9620181
+            ],
+            [
+              5.7352671,
+              44.9620759
+            ],
+            [
+              5.7352469,
+              44.9620281
+            ],
+            [
+              5.7352992,
+              44.9620171
+            ],
+            [
+              5.7352897,
+              44.9619942
+            ],
+            [
+              5.7354427,
+              44.9619618
+            ],
+            [
+              5.7354521,
+              44.9619833
+            ],
+            [
+              5.7355015,
+              44.9619723
+            ],
+            [
+              5.735522,
+              44.9620181
+            ]
+          ]
+        ]
+      },
+      "id": "way/180647809"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/219769063",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Noémi",
+        "old_name": "Noemy",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "bing",
+        "train": "yes",
+        "wikidata": "Q8841125",
+        "wikipedia": "pt:Estação Ferroviária de Noémi"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -6.9766027,
+              40.5342042
+            ],
+            [
+              -6.9765687,
+              40.5341668
+            ],
+            [
+              -6.9765004,
+              40.5342028
+            ],
+            [
+              -6.9764793,
+              40.5341796
+            ],
+            [
+              -6.9763821,
+              40.5342307
+            ],
+            [
+              -6.9764373,
+              40.5342913
+            ],
+            [
+              -6.9766027,
+              40.5342042
+            ]
+          ]
+        ]
+      },
+      "id": "way/219769063"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/224536884",
+        "building": "train_station",
+        "disused": "yes",
+        "name": "La Mure",
+        "network": "SGLM",
+        "operator": "Connex",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "cadastre-dgi-fr source : Direction Générale des Finances Publiques - Cadastre. Mise à jour : 2013",
+        "wikidata": "Q3096797"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              5.783764,
+              44.912037
+            ],
+            [
+              5.783719,
+              44.912224
+            ],
+            [
+              5.783622,
+              44.912213
+            ],
+            [
+              5.783663,
+              44.912024
+            ],
+            [
+              5.783764,
+              44.912037
+            ]
+          ]
+        ]
+      },
+      "id": "way/224536884"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232819815",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Totana",
+        "railway": "station",
+        "wikidata": "Q5847360"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.4957745,
+              37.7634279
+            ],
+            [
+              -1.4956736,
+              37.7633255
+            ],
+            [
+              -1.4954142,
+              37.7634853
+            ],
+            [
+              -1.4955151,
+              37.7635876
+            ],
+            [
+              -1.4957745,
+              37.7634279
+            ]
+          ]
+        ]
+      },
+      "id": "way/232819815"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/232819822",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Almendricos",
+        "railway": "station",
+        "wikidata": "Q5845666"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -1.7797116,
+              37.4747459
+            ],
+            [
+              -1.7796358,
+              37.4746582
+            ],
+            [
+              -1.7794415,
+              37.4747639
+            ],
+            [
+              -1.7795173,
+              37.4748516
+            ],
+            [
+              -1.7797116,
+              37.4747459
+            ]
+          ]
+        ]
+      },
+      "id": "way/232819822"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314666836",
+        "building": "train_station",
+        "disused": "yes",
+        "railway": "station",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.9155291,
+              41.6817981
+            ],
+            [
+              -3.9157172,
+              41.6816758
+            ],
+            [
+              -3.9156397,
+              41.6816093
+            ],
+            [
+              -3.9154515,
+              41.6817316
+            ],
+            [
+              -3.9155291,
+              41.6817981
+            ]
+          ]
+        ]
+      },
+      "id": "way/314666836"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/314666838",
+        "building": "yes",
+        "disused": "yes",
+        "railway": "station",
+        "source": "bing"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.9809172,
+              41.6364664
+            ],
+            [
+              -3.9808249,
+              41.6364
+            ],
+            [
+              -3.9807301,
+              41.6364736
+            ],
+            [
+              -3.9808224,
+              41.63654
+            ],
+            [
+              -3.9809172,
+              41.6364664
+            ]
+          ]
+        ]
+      },
+      "id": "way/314666838"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/323668015",
+        "abandoned:building": "yes",
+        "addr:city": "Torreperogil",
+        "building": "yes",
+        "disused": "yes",
+        "internet_access": "no",
+        "name": "Estación de Torreperogil",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -3.2654818,
+              38.0275475
+            ],
+            [
+              -3.2654761,
+              38.027401
+            ],
+            [
+              -3.2649393,
+              38.027414
+            ],
+            [
+              -3.264945,
+              38.0275604
+            ],
+            [
+              -3.2654818,
+              38.0275475
+            ]
+          ]
+        ]
+      },
+      "id": "way/323668015"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/341190248",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Sant'Angelo in Formis",
+        "network": "Napoli-Piedimonte d'Alife",
+        "operator": "CFNMI",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.2485974,
+              41.1199825
+            ],
+            [
+              14.2486779,
+              41.1199825
+            ],
+            [
+              14.2486645,
+              41.1201845
+            ],
+            [
+              14.2485867,
+              41.1201845
+            ],
+            [
+              14.2485974,
+              41.1199825
+            ]
+          ]
+        ]
+      },
+      "id": "way/341190248"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/368477380",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Estación de Arancón",
+        "railway": "station",
+        "wikidata": "Q106882025"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -2.2868154,
+              41.793128
+            ],
+            [
+              -2.2868744,
+              41.793056
+            ],
+            [
+              -2.2866652,
+              41.7929741
+            ],
+            [
+              -2.2866142,
+              41.79305
+            ],
+            [
+              -2.2868154,
+              41.793128
+            ]
+          ]
+        ]
+      },
+      "id": "way/368477380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/391906334",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Ciñera",
+        "operator": "Adif",
+        "railway": "station",
+        "wikidata": "Q2883241"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -5.6404988,
+              42.8891808
+            ],
+            [
+              -5.6405919,
+              42.8891812
+            ],
+            [
+              -5.6405931,
+              42.8890547
+            ],
+            [
+              -5.6405,
+              42.8890542
+            ],
+            [
+              -5.6404988,
+              42.8891808
+            ]
+          ]
+        ]
+      },
+      "id": "way/391906334"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/489111594",
+        "area": "yes",
+        "disused": "yes",
+        "name": "아천(폐역)",
+        "name:ko": "아천(폐역)",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              128.1196639,
+              36.180245
+            ],
+            [
+              128.1197827,
+              36.1804893
+            ],
+            [
+              128.1196852,
+              36.1805202
+            ],
+            [
+              128.1195664,
+              36.1802758
+            ],
+            [
+              128.1196639,
+              36.180245
+            ]
+          ]
+        ]
+      },
+      "id": "way/489111594"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/693050862",
+        "building": "yes",
+        "disused": "yes",
+        "name": "Pinhel",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes",
+        "wikidata": "Q8841470"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -7.2494966,
+              40.7110692
+            ],
+            [
+              -7.24963,
+              40.7110025
+            ],
+            [
+              -7.2495802,
+              40.710947
+            ],
+            [
+              -7.2494481,
+              40.7110148
+            ],
+            [
+              -7.2494966,
+              40.7110692
+            ]
+          ]
+        ]
+      },
+      "id": "way/693050862"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/706194197",
+        "building": "yes",
+        "disused": "yes",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              14.7679223,
+              -9.1396939
+            ],
+            [
+              14.7679679,
+              -9.1397522
+            ],
+            [
+              14.7681199,
+              -9.1396362
+            ],
+            [
+              14.7680743,
+              -9.139578
+            ],
+            [
+              14.7679223,
+              -9.1396939
+            ]
+          ]
+        ]
+      },
+      "id": "way/706194197"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/707094284",
+        "building": "ruins",
+        "disused": "yes",
+        "name": "Santa Virgínia",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -55.7186303,
+              -22.3354487
+            ],
+            [
+              -55.7184998,
+              -22.335216
+            ],
+            [
+              -55.7185541,
+              -22.3351899
+            ],
+            [
+              -55.7186846,
+              -22.3354227
+            ],
+            [
+              -55.7186303,
+              -22.3354487
+            ]
+          ]
+        ]
+      },
+      "id": "way/707094284"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/893560826",
+        "building": "yes",
+        "disused": "yes",
+        "disused:railway": "rail",
+        "name": "Cortês",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -35.5436572,
+              -8.4735993
+            ],
+            [
+              -35.5436987,
+              -8.4736723
+            ],
+            [
+              -35.5434767,
+              -8.4737958
+            ],
+            [
+              -35.5434351,
+              -8.4737228
+            ],
+            [
+              -35.5436572,
+              -8.4735993
+            ]
+          ]
+        ]
+      },
+      "id": "way/893560826"
+    }
+  ]
+}

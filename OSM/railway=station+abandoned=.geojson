@@ -1,0 +1,370 @@
+{
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2022-12-26T14:21:09Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/76865018",
+        "abandoned": "yes",
+        "addr:housenumber": "191",
+        "addr:postcode": "J2N 1S3",
+        "addr:street": "Rue Victoria",
+        "name": "Gare de Farnham",
+        "network": "Central Maine & Quebec Railway",
+        "public_transport": "station",
+        "railway": "station",
+        "source": "CanVec 6.0 - NRCan",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -72.9787306,
+              45.281746
+            ],
+            [
+              -72.9786432,
+              45.2818649
+            ],
+            [
+              -72.9790906,
+              45.2820071
+            ],
+            [
+              -72.979162,
+              45.2818935
+            ],
+            [
+              -72.9787306,
+              45.281746
+            ]
+          ]
+        ]
+      },
+      "id": "way/76865018"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/106418856",
+        "abandoned": "yes",
+        "building": "yes",
+        "name": "гара Бояново",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.5981634,
+              42.2608862
+            ],
+            [
+              26.5981711,
+              42.2606825
+            ],
+            [
+              26.5983208,
+              42.2606856
+            ],
+            [
+              26.5983131,
+              42.2608893
+            ],
+            [
+              26.5981634,
+              42.2608862
+            ]
+          ]
+        ]
+      },
+      "id": "way/106418856"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/210107031",
+        "abandoned": "yes",
+        "building": "yes",
+        "name": "Чистые Пруды",
+        "name:de": "Tollmingkehmen",
+        "public_transport": "station",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              22.4425014,
+              54.4605293
+            ],
+            [
+              22.4423397,
+              54.4605983
+            ],
+            [
+              22.4417597,
+              54.4601389
+            ],
+            [
+              22.4418269,
+              54.4601102
+            ],
+            [
+              22.4416956,
+              54.4600062
+            ],
+            [
+              22.4417901,
+              54.4599659
+            ],
+            [
+              22.4425014,
+              54.4605293
+            ]
+          ]
+        ]
+      },
+      "id": "way/210107031"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/316858240",
+        "abandoned": "yes",
+        "building": "yes",
+        "name": "Елхово",
+        "name:en": "Elhovo",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              26.5677609,
+              42.176696
+            ],
+            [
+              26.5679234,
+              42.1766239
+            ],
+            [
+              26.5682801,
+              42.1770653
+            ],
+            [
+              26.5681506,
+              42.1771228
+            ],
+            [
+              26.5679734,
+              42.1769035
+            ],
+            [
+              26.5679404,
+              42.1769181
+            ],
+            [
+              26.5677609,
+              42.176696
+            ]
+          ]
+        ]
+      },
+      "id": "way/316858240"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/379490644",
+        "abandoned": "yes",
+        "building": "yes",
+        "name": "Aringay",
+        "network": "Main Line North",
+        "operator": "Philippine National Railways",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              120.3519339,
+              16.3967589
+            ],
+            [
+              120.3519347,
+              16.396619
+            ],
+            [
+              120.3519977,
+              16.3966193
+            ],
+            [
+              120.3519969,
+              16.3967592
+            ],
+            [
+              120.3519339,
+              16.3967589
+            ]
+          ]
+        ]
+      },
+      "id": "way/379490644"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/406212237",
+        "abandoned": "yes",
+        "building": "yes",
+        "railway": "station"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -45.0594933,
+              -21.1909892
+            ],
+            [
+              -45.0594517,
+              -21.1910701
+            ],
+            [
+              -45.0592155,
+              -21.1909645
+            ],
+            [
+              -45.059257,
+              -21.1908836
+            ],
+            [
+              -45.0594933,
+              -21.1909892
+            ]
+          ]
+        ]
+      },
+      "id": "way/406212237"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/722928202",
+        "abandoned": "yes",
+        "name": "Gomeznarro",
+        "railway": "station",
+        "ruins": "yes",
+        "source": "Catastro de España y PNOA"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              -4.787661,
+              41.2285123
+            ],
+            [
+              -4.7880856,
+              41.2284723
+            ],
+            [
+              -4.7882691,
+              41.2284638
+            ],
+            [
+              -4.7882803,
+              41.2283416
+            ],
+            [
+              -4.7880968,
+              41.2283437
+            ],
+            [
+              -4.788101,
+              41.2283932
+            ],
+            [
+              -4.7879875,
+              41.2284017
+            ],
+            [
+              -4.7879833,
+              41.2283858
+            ],
+            [
+              -4.7878474,
+              41.2284038
+            ],
+            [
+              -4.787825,
+              41.22829
+            ],
+            [
+              -4.7875882,
+              41.2283142
+            ],
+            [
+              -4.787661,
+              41.2285123
+            ]
+          ]
+        ]
+      },
+      "id": "way/722928202"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "way/1080262499",
+        "abandoned": "yes",
+        "building": "yes",
+        "public_transport": "station",
+        "railway": "station",
+        "train": "yes"
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              142.1507796,
+              46.9731054
+            ],
+            [
+              142.1508075,
+              46.9730482
+            ],
+            [
+              142.1509698,
+              46.9730849
+            ],
+            [
+              142.150942,
+              46.9731421
+            ],
+            [
+              142.1507796,
+              46.9731054
+            ]
+          ]
+        ]
+      },
+      "id": "way/1080262499"
+    }
+  ]
+}
