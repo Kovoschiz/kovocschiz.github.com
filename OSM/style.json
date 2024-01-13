@@ -12548,7 +12548,7 @@
       "id": "routestops",
       "type": "circle",
       "source": "OverpassAPI",
-      "filter": ["all", ["==", ["get","role"], "stop"]],
+      "filter": ["all", ["==", ["in","@relations","role"], "stop"]],
       "paint": {
           "circle-stroke-width": 2,
           "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
@@ -12559,7 +12559,7 @@
     "id": "routeplatforms",
     "type": "circle",
     "source": "OverpassAPI",
-    "filter": ["all", ["==", ["get","role"], "platform"]],
+    "filter": ["all", ["==", ["in","@relations","role"], "platform"]],
     "paint": {
         "circle-stroke-width": 2,
         "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
