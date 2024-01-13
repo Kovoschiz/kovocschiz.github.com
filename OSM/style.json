@@ -12541,8 +12541,30 @@
         "paint": {
             "circle-stroke-width": 2,
             "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
-            "circle-color": "black"
+            "circle-color": "blue"
         }
     }
+    {
+      "id": "routestops",
+      "type": "circle",
+      "source": "OverpassAPI",
+      "filter": ["all", ["==", ["get","role"], "stop"]],
+      "paint": {
+          "circle-stroke-width": 2,
+          "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+          "circle-color": "black"
+      }
+  }
+  {
+    "id": "routeplatforms",
+    "type": "circle",
+    "source": "OverpassAPI",
+    "filter": ["all", ["==", ["get","role"], "platform"]],
+    "paint": {
+        "circle-stroke-width": 2,
+        "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+        "circle-color": "red"
+    }
+}
   ]
 }
