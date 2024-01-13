@@ -12534,28 +12534,6 @@
         "layout": { "line-cap": "round" }
     },
     {
-      "id": "routestops",
-      "type": "circle",
-      "source": "OverpassAPI",
-      "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "stop"]],
-      "paint": {
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
-          "circle-color": "black"
-      }
-  },
-  {
-      "id": "routeplatforms",
-      "type": "circle",
-      "source": "OverpassAPI",
-      "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "platform"]],
-      "paint": {
-          "circle-stroke-width": 2,
-          "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
-          "circle-color": "red"
-      }
-  },
-    {
         "id": "overpass-poi",
         "type": "circle",
         "source": "OverpassAPI",
@@ -12564,6 +12542,28 @@
             "circle-stroke-width": 2,
             "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
             "circle-color": "rgba(255, 204, 0, 0.6)"
+        }
+    },
+    {
+        "id": "routestops",
+        "type": "circle",
+        "source": "OverpassAPI",
+        "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "stop"]],
+        "paint": {
+            "circle-stroke-width": 2,
+            "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+            "circle-color": "black"
+        }
+    },
+    {
+        "id": "routeplatforms",
+        "type": "circle",
+        "source": "OverpassAPI",
+        "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "platform"]],
+        "paint": {
+            "circle-stroke-width": 2,
+            "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+            "circle-color": "red"
         }
     }
   ]
