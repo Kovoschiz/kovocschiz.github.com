@@ -12550,8 +12550,8 @@
         "source": "OverpassAPI",
         "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "stop"]],
         "paint": {
-            "circle-stroke-width": 2,
-            "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+            "circle-stroke-width": 8,
+            "circle-stroke-color": "black",
             "circle-color": "black"
         }
     },
@@ -12561,8 +12561,8 @@
         "source": "OverpassAPI",
         "filter": ["all", ["==", ["get","role",["at",0,["get","@relations"]]], "platform"]],
         "paint": {
-            "circle-stroke-width": 2,
-            "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
+            "circle-stroke-width": 4,
+            "circle-stroke-color": "red",
             "circle-color": "red"
         }
     }
