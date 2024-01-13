@@ -12534,17 +12534,6 @@
         "layout": { "line-cap": "round" }
     },
     {
-        "id": "overpass-poi",
-        "type": "circle",
-        "source": "OverpassAPI",
-        "filter": ["all", ["==", ["geometry-type"], "Point"]],
-        "paint": {
-            "circle-stroke-width": 2,
-            "circle-stroke-color": "rgba(0, 51, 255, 0.6)",
-            "circle-color": "rgba(255, 204, 0, 0.6)"
-        }
-    },
-    {
         "id": "routestops",
         "type": "circle",
         "source": "OverpassAPI",
